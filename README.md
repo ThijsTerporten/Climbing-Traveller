@@ -1,0 +1,55 @@
+# The Climbing Traveller
+
+This project will cover the best places available to climb outdoors, covering bouldering and lead-climbing in Europe.
+The idea behind the project is to inform visitors and give them idea's about where to go on their next climbing trip.
+While providing them different links to purchase any new gear and give them the option to subscribe to a newsletter to recieve monthly updates
+about new locations to consider for their next trip.
+
+## UX
+
+The end user of this project can be anyone interested in finding a location to go on holiday and climb at the same time, or even someone that already
+booked a holiday and is looking for a location near that place to go on a climbing trip.
+The end user of this project would like to find clear descriptions of the locations listed:
+* Type of climbing.
+* Level of climbing in the area.
+* Country.
+* Accomodations. 
+* Other things to do in the area.
+
+The end goal of the project is to get people excited about climbing and inform them about outdoor climbing.
+
+### UX stories
+
+* As a user I want to learn more about outdoor climbing locations.
+* As a user I would like to get inspiration for my next climbing trip.
+* Do I need permits or certificates to climb outdoors?
+* What equipment do I need to climb outdoor?
+* Is there any way to learn more about climbing outdoor in general?
+* As a user I would like to be updated about more locations I could visit in the futere.
+* I already booked my holiday, is there a location I could go and climb near me.
+
+## Features
+
+This section contains some of the features this project contains:
+* The homepage will be the landing page showing a stunning image to instantly draw their attention.
+* The about section describes in a small paragraph what the site is about.
+* The subscribe section gives the user the option to subscribe to a newsletter, or give feedback.
+* Using the nav bar the user can navigate between pages for the type of climbing they are interested in.
+* The user can use the gear up part of the website to find new gear they are looking for.
+* The user can find full descriptions of the location using a link to the app "27-Crags".
+
+
+### Existing Features
+
+### Future Features
+
+## Technologies
+
+This project was build using the following technologies:
+
+* HTML5
+* CSS3
+* Bootstrap
+* Google Chrome Dev Tools: for testing purposes.
+* Lighthouse
+* Jquery.
