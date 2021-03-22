@@ -39,6 +39,13 @@ body {
     font-size: 45px;
     
 }
+
+.form-heading {
+    font-family: "Roboto" , sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
 /* --------Paragraphs-------- */
 
 .heading-text {
@@ -114,6 +121,12 @@ body {
 
 .about-container {
     height: 75vh;
+    display: flex;
+    align-items: center;
+}
+
+.form-container {
+    height: 100vh;
     display: flex;
     align-items: center;
 }
