@@ -17,8 +17,39 @@ body {
 .uppercase {
     text-transform: uppercase;
 }
+
+/* --------Headings-------- */
+
+.main-heading {
+    padding-top: 200px;
+    padding-left: 0.5em;
+    margin: 0;
+    font-family: "Roboto" , sans-serif;
+    font-size: 8vh;
+    letter-spacing: 2px;
+    text-align: center;
+}
+/* --------Paragraphs-------- */
+
+.heading-text {
+    font-family: "Exo" , sans-serif;
+    text-align: center;
+}
 /* --------Colors-------- */
 
+.main-heading {
+    color: #fafafa;
+}
+
+.heading-text {
+    color: #fafafa;
+}
+
+.full-bg-image {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
 
 
 /* --------Navbar-------- */
@@ -34,7 +65,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     border-radius: 2px;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* --------Logo-------- */
@@ -42,6 +72,4 @@ body {
 .logo {
     max-height: 75px;
     max-width: 75px;
-    background-color: rgba(0, 0, 0, 0.5);
-    
 }
