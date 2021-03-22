@@ -36,8 +36,6 @@ body {
     letter-spacing: 2px;
     padding-top: 40px;
     padding-bottom: 20px;
-    font-size: 45px;
-    
 }
 
 .form-heading {
@@ -45,6 +43,7 @@ body {
     text-align: center;
     letter-spacing: 2px;
     padding-bottom: 20px;
+    padding-top: 40px;
 }
 /* --------Paragraphs-------- */
 
@@ -64,7 +63,19 @@ body {
     font-weight: 100;
 }
 
+.form-text {
+    font-family: "Exo" , sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
 /* --------Colors-------- */
+
+.bg-color-navbar {
+    background-color: #e4a923;
+}
 
 .main-heading {
     color: #fafafa;
@@ -83,6 +94,8 @@ body {
 
 /* --------Navbar-------- */
 
+    
+    
 
 /* --------Background Hero Image-------- */
 
@@ -99,8 +112,9 @@ body {
 /* --------Logo-------- */
 
 .logo {
-    max-height: 75px;
-    max-width: 75px; 
+    max-height: 65px;
+    max-width: 65px;
+    border-radius: 50%;     
 }
 
 /* --------Dividers-------- */

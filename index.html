@@ -14,45 +14,49 @@
 
 <body>
     <header>
+
         <!-- -------Navbar------- -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-color-navbar fixed-top">
+            <div class="d-flex flex-row">
+
                 <!-- -------Logo------- -->
-                <a class="navbar-brand uppercase" href="index.html"><img src="assets/images/climbing-logo.jpg"
-                        class="logo" alt="climbing logo">Climbing Traveller</a>
+                <a class="navbar-brand" href="index.html"><img src="assets/images/climbing-logo.jpg" class="logo"
+                        alt="climbing logo">Climbing Traveller</a>
                 <!-- -------Logo------- -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Climbing Style
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Bouldering</a>
-                                <a class="dropdown-item" href="#">Lead-Climbing</a>
-                            </div>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Gear Up!</a>
-                        </li>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Subscribe!</a>
-                        </li>
-                    </ul>
-
-                </div>
             </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Climbing Style
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Bouldering</a>
+                            <a class="dropdown-item" href="#">Lead-Climbing</a>
+                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gear Up!</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#subscribe" tabindex="-1" aria-disabled="true">Subscribe!</a>
+                    </li>
+                </ul>
+
+            </div>
+
         </nav>
 
         <!-- -------Navbar------- -->
@@ -72,7 +76,7 @@
 
     </header>
 
-        <!-- -------About us section------- -->
+    <!-- -------About us section------- -->
     <div class="container about-container">
         <section>
 
@@ -94,15 +98,19 @@
         <!-- -------About us section------- -->
     </div>
     <!-- -------NewsLetter section------- -->
-    <div class="container subscribe-container">
+    <div class="container subscribe-container" id="subscribe">
         <h2 class="uppercase form-heading">Subscribe to our Newsletter!</h2>
         <hr class="heading-divider--black">
-        <form>
+        <p class="form-text">Would you like to recieve monthly news about the hottest climbing locations?
+            <br>
+            Subscribe to our newsletter!
+        </p>
+        <form class="subscribe-form">
             <div class="form-group">
                 <label for="firstName">First Name:</label>
                 <input type="text" class="form-control" id="firstName" aria-describedby="emailHelp"
                     placeholder="First Name" required>
-                
+
             </div>
             <div class="form-group">
                 <label for="lastName">Last Name:</label>
@@ -113,7 +121,7 @@
                 <label for="email">Email:</label>
                 <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
                     placeholder="Your Email" required>
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                     else.</small>
             </div>
             <div class="form-group">
