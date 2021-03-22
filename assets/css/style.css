@@ -71,5 +71,17 @@ body {
 
 .logo {
     max-height: 75px;
-    max-width: 75px;
+    max-width: 75px; 
+}
+
+/* --------Dividers-------- */
+
+.heading-divider {
+    width: 40%;
+    background-color: #fafafa;
+}
+
+.heading-divider--black {
+    width: 40%;
+    background-color: #333;
 }
