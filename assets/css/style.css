@@ -29,12 +29,31 @@ body {
     letter-spacing: 2px;
     text-align: center;
 }
+
+.about-heading {
+    font-family: "Roboto" , sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
 /* --------Paragraphs-------- */
 
 .heading-text {
     font-family: "Exo" , sans-serif;
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
+
+.about-text {
+    font-family: "Exo" , sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
 /* --------Colors-------- */
 
 .main-heading {
@@ -84,4 +103,5 @@ body {
 .heading-divider--black {
     width: 40%;
     background-color: #333;
+    
 }
