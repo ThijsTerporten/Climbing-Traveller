@@ -36,6 +36,7 @@ body {
     letter-spacing: 2px;
     padding-top: 40px;
     padding-bottom: 20px;
+    
 }
 /* --------Paragraphs-------- */
 
@@ -52,6 +53,7 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0;
+    font-weight: 100;
 }
 
 /* --------Colors-------- */
@@ -104,4 +106,12 @@ body {
     width: 40%;
     background-color: #333;
     
+}
+
+/* --------Containers-------- */
+
+.about-container {
+    height: 75vh;
+    display: flex;
+    align-items: center;
 }
