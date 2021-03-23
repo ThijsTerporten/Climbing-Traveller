@@ -32,10 +32,16 @@ The end goal of the project is to get people excited about climbing and inform t
 * As a user I would like to be updated about more locations I could visit in the futere.
 * I already booked my holiday, is there a location I could go and climb near me.
 
+## Scope
+
+## Skeleton
+
+## Surface
+
 ## Features
 
 This section contains some of the features this project contains:
-* The homepage will be the landing page showing a stunning image to instantly draw their attention.
+* The homepage will be the landing page showing a stunning image to instantly draw the users attention.
 * The about section describes in a small paragraph what the site is about.
 * The subscribe section gives the user the option to subscribe to a newsletter, or give feedback.
 * Using the nav bar the user can navigate between pages for the type of climbing they are interested in.
