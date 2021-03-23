@@ -5,6 +5,10 @@ The idea behind the project is to inform visitors and give them idea's about whe
 While providing them different links to purchase any new gear and give them the option to subscribe to a newsletter to recieve monthly updates
 about new locations to consider for their next trip.
 
+## Showcase
+
+A deployed version of my website can be found [here.](https://thijsterporten.github.io/Milestone-1/index.html)
+
 ## UX
 
 The end user of this project can be anyone interested in finding a location to go on holiday and climb at the same time, or even someone that already
