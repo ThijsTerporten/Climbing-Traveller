@@ -20,18 +20,21 @@ body {
 
 /* --------Headings-------- */
 
-.main-heading {
-    padding-top: 200px;
-    padding-left: 0.5em;
-    margin: 0;
-    font-family: "Roboto" , sans-serif;
-    font-size: 8vh;
-    letter-spacing: 2px;
+.full-bg-image {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
 }
 
-.about-heading {
-    font-family: "Roboto" , sans-serif;
+.main-heading {
+    margin: 0;
+    font-size: 8vh;
+    letter-spacing: 2px;  
+}
+
+.about-heading { 
     text-align: center;
     letter-spacing: 2px;
     padding-top: 40px;
@@ -39,7 +42,6 @@ body {
 }
 
 .form-heading {
-    font-family: "Roboto" , sans-serif;
     text-align: center;
     letter-spacing: 2px;
     padding-bottom: 20px;
@@ -60,7 +62,6 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     margin: 0;
-    font-weight: 100;
 }
 
 .form-text {
@@ -100,13 +101,13 @@ body {
 /* --------Background Hero Image-------- */
 
 #hero-image {
-    background: url(../images/hero-climber.jpg) no-repeat;
+    background-image: url(../images/hero-climber.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    border-radius: 2px;
 }
 
 /* --------Logo-------- */
@@ -134,13 +135,15 @@ body {
 /* --------Containers-------- */
 
 .about-container {
-    height: 75vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
     align-items: center;
 }
 
 .form-container {
-    height: 100vh;
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
     align-items: center;
 }
