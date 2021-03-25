@@ -47,6 +47,9 @@ give them updates about cool new climbing locations.
 
 ## Scope
 
+I want my users to easily learn about outdoor climbing and some cool locations to check out. While having the option to find gear needed to start 
+climbing outside available on a different page of the website.
+
 ## Skeleton
 
 ## Surface
