@@ -32,6 +32,19 @@ The end goal of the project is to get people excited about climbing and inform t
 * As a user I would like to be updated about more locations I could visit in the futere.
 * I already booked my holiday, is there a location I could go and climb near me.
 
+## Strategy
+
+### User Needs
+
+As a user the site has to be accessible on mobile, tablet and all browsers. Information should be clearly laid out, informative and easy to read.
+The site navigation needs to be optimal to move to the preferred section of the user.
+
+### Business vision
+
+The purpose of this project is to give users new idea's and a clear overview of the area of their next climbing trip.
+The site also gives the users easy acces to external sites to buy new gear or an option to subscribe to a newsletter to 
+give them updates about cool new climbing locations.
+
 ## Scope
 
 ## Skeleton
