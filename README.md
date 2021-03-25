@@ -50,6 +50,15 @@ give them updates about cool new climbing locations.
 I want my users to easily learn about outdoor climbing and some cool locations to check out. While having the option to find gear needed to start 
 climbing outside available on a different page of the website.
 
+## Structure
+
+This project is a multi page website. Due to the large amount of information it wouldn't be smart to lay everything out in a single page.
+For clarity and overview the project is divided in 4 pages. One for each type of climbing, one for the Home page, and one for the gear links.
+On entering the landing page the user is greeted by a stunning image one might expect when going on a climbing trip. The user will then naturally find a small description 
+of what the site is about and then naturally find a form to allow the user to subscribe to a newsletter. To get to the different parts the user can use the navigation
+menu to easily find the type of climbing they are interested in or the section of the site to find new gear. 
+Every other page is designed keeping this layout in mind as this provides intuitve learning for the user. 
+
 ## Skeleton
 
 ## Surface
