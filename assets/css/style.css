@@ -92,6 +92,10 @@ body {
     height: 100%;
 }
 
+.footer-container {
+    background-color: rgba(0, 0, 0, 0.5) ;
+}
+
 .btn {
     background-color: #e4a923;
     font-family: "Exo" , sans-serif;
@@ -172,6 +176,10 @@ body {
     text-align: center;
 }
 
+.footer-container {
+    padding-top: 50px;
+    margin-top: 50px;
+}
 /* =======Form======= */
 
 .subscribe-form {
