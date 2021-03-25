@@ -62,8 +62,6 @@ Every other page is designed keeping this layout in mind as this provides intuit
 
 ## Skeleton
 
-[Original wireframe](../assets/images/wireframes/Travelling Climber.bmpr)
-
 ## Surface
 
 ## Features
