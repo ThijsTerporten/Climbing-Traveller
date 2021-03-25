@@ -136,7 +136,11 @@ body {
     border-radius: 50%;     
 }
 
-
+.crag-logo img {
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 50%;
+}
 /* --------Dividers-------- */
 
 .heading-divider {
