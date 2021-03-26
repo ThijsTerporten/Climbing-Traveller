@@ -77,6 +77,10 @@ body {
     text-transform: capitalize;
 }
 
+.copyright-text {
+    display: flex;
+    justify-content: flex-start;
+}
 /* --------Colors-------- */
 
 .bg-color-navbar {
@@ -119,6 +123,10 @@ body {
 }
 
 .footer-text {
+    color: #fafafa;
+}
+
+.copyright-text {
     color: #fafafa;
 }
 /* --------Navbar-------- */
