@@ -50,7 +50,6 @@ body {
 
 .footer-heading {
     text-align: center;
-    font-size: 15px;
     color: #fafafa;
 }
 /* --------Paragraphs-------- */
@@ -119,7 +118,9 @@ body {
     letter-spacing: 4px;
 }
 
-
+.footer-text {
+    color: #fafafa;
+}
 /* --------Navbar-------- */
 
 
@@ -148,6 +149,8 @@ body {
     max-width: 50px;
     border-radius: 50%;
 }
+
+
 /* --------Dividers-------- */
 
 .heading-divider {
@@ -209,4 +212,8 @@ body {
     display: flex;
     justify-content: center;
     position: relative;
+}
+
+h5, p, small {
+    text-align: center;
 }
