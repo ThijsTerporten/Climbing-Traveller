@@ -5,7 +5,8 @@
 html,
 body,
 header,
-.hero-image {
+.hero-image,
+.hero-image-lead-climbing {
     height: 100%;
 }
 
@@ -145,6 +146,16 @@ body {
 
 .hero-image {
     background-image: url(../images/hero-climber.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.hero-image-lead-climbing {
+    background-image: url(../images/lead-climbing.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
