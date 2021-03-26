@@ -85,6 +85,11 @@ body {
     justify-content: flex-start;
     font-family: "Exo" , sans-serif;
 }
+
+.footer-text {
+    text-align: center;
+    font-family: "Exo" , sans-serif;
+}
 /* --------Colors-------- */
 
 .bg-color-navbar {
@@ -203,6 +208,7 @@ body {
 
 .footer-nav {
     list-style-type: none;
+    font-family: "Exo" , sans-serif;
 }
 
 .footer-nav li a {
@@ -221,9 +227,6 @@ body {
     justify-content: center;
 }
 
-h5 p small {
-    text-align: center;
-}
 
 .footer-text:hover {
     color: #e4a923;
