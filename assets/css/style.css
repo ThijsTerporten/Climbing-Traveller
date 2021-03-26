@@ -115,10 +115,7 @@ body {
 
 
 /* --------Navbar-------- */
-.nav-item:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 50%;
-}
+
 
 /* --------Background Hero Image-------- */
 
@@ -135,8 +132,8 @@ body {
 /* --------Logo-------- */
 
 .logo {
-    max-height: 65px;
-    max-width: 65px;
+    max-height: 50px;
+    max-width: 50px;
     border-radius: 50%;     
 }
 
@@ -154,9 +151,7 @@ body {
 
 .heading-divider--black {
     width: 40%;
-    background-color: #333;
-    
-    
+    background-color: #333;   
 }
 
 /* --------Containers-------- */
@@ -189,4 +184,5 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
+
 
