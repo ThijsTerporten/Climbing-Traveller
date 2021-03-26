@@ -51,6 +51,7 @@ body {
 .footer-heading {
     text-align: center;
     color: #fafafa;
+    padding: 5px;
 }
 /* --------Paragraphs-------- */
 
@@ -152,13 +153,6 @@ body {
     border-radius: 50%;     
 }
 
-.crag-logo img {
-    max-height: 50px;
-    max-width: 50px;
-    border-radius: 50%;
-}
-
-
 /* --------Dividers-------- */
 
 .heading-divider {
@@ -222,6 +216,10 @@ body {
     position: relative;
 }
 
-h5, p, small {
+h5 p small {
     text-align: center;
+}
+
+.footer-text:hover {
+    color: #e4a923;
 }
