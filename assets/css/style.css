@@ -47,6 +47,12 @@ body {
     padding-bottom: 20px;
     padding-top: 40px;
 }
+
+.footer-heading {
+    text-align: center;
+    font-size: 15px;
+    color: #fafafa;
+}
 /* --------Paragraphs-------- */
 
 .heading-text {
