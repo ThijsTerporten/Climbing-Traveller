@@ -84,6 +84,10 @@ This section contains some of the features this project contains:
 * 
 ### Future Features
 
+* In a future release the subscribe form will be linked to a mailing server.
+* In a future release there will be a news page that will give updates about everything in the climbing world.
+* In future updates there will be new sections added to each category of climbing. 
+
 ## Technologies
 
 This project was build using the following technologies:
