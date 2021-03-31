@@ -98,3 +98,17 @@ This project was build using the following technologies:
 * Google Chrome Dev Tools: for testing purposes.
 * Lighthouse
 * Jquery.
+* Prettier to beautify code. 
+
+## Testing
+
+### Testing Plan
+
+Starting this project I know what my target audience would like to see on a website with climbing as its topic (I'm a climber as well).
+I took into consideration on what devices my users would like to see the website on. 
+For testing I designed the website mobile first, with extensive testing using Chrome DevTools for all Iphone's.
+Using DevTools I continued testing the website using settings for the Ipad and a 15.6 inch laptop screen.
+For large screens I used a 24 inch monitor.
+
+### Implementation
+
