@@ -77,6 +77,11 @@ This section contains some of the features this project contains:
 
 ### Existing Features
 
+* The navbar collapses in a burger menu when viewed on an mobile device or a tablet.
+* The user is able to fill in a form to sign up to a newsletter (not linked as of now).
+* The user is able to use the website 'Gear Up!' page to find links to different websites that open up in new tabs.
+* The user is able to move to a more detailed description about a location they are interested in by clicking on the link to 27 Crags at the end of the description.
+* 
 ### Future Features
 
 ## Technologies
