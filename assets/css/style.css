@@ -194,6 +194,16 @@ body {
     border-radius: 50%;     
 }
 
+.crag-logo {
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 50%;
+}
+
+.crag-link {
+    display: flex;
+    justify-content: center;
+}
 /* --------Dividers-------- */
 
 .heading-divider {
