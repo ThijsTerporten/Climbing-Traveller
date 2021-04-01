@@ -87,6 +87,7 @@ body {
     display: flex;
     justify-content: flex-start;
     font-family: "Exo" , sans-serif;
+    text-align: center;
 }
 
 .footer-text {
@@ -270,5 +271,5 @@ body {
 }
 
 .link-list {
-    text-align: center;
+    display: inline;
 }
