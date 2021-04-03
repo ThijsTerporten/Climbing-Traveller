@@ -137,7 +137,6 @@ body {
 /* --------Background Hero Image-------- */
 
 .hero-image {
-    background-image: url("../images/hero-climber.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -146,34 +145,19 @@ body {
     -o-background-size: cover;
 }
 
+.hero-image-main {
+    background-image: url("../images/hero-climber.jpg");
+}
 .hero-image-lead-climbing {
     background-image: url("../images/lead-climbing.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 }
 
 .hero-image-bouldering {
     background-image: url("../images/bouldering.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 }
 
 .hero-image-gear {
     background-image: url("../images/gear-up.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
 }
 /* --------Logo-------- */
 
