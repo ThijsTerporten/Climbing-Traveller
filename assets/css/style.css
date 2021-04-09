@@ -5,10 +5,7 @@
 html,
 body,
 header,
-.hero-image,
-.hero-image-lead-climbing,
-.hero-image-bouldering,
-.hero-image-gear {
+.hero-image {
     height: 100%;
 }
 
