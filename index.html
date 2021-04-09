@@ -80,13 +80,13 @@
     <!-- About us section -->
     <section class="container-fluid about-container d-flex flex-column" id="about">
         <div class="row">
-            <div class="col col-lg-6 offset-lg-3">
+            <div class="col col-md-6 offset-md-3">
                 <h2 class="uppercase heading">About Us</h2>
             </div>
         </div>
         <hr class="heading-divider--black heading-divider">
         <div class="row">
-            <div class="col col-lg-6 offset-lg-3">
+            <div class="col col-md-6 offset-md-3">
                 <p class="about-text">We are as passionate about travelling as we are about climbing. Therefore we
                     have made a
                     portal for all your climbing needs.
@@ -101,43 +101,51 @@
     </section>
     <!-- About us section -->
     <!-- NewsLetter section -->
-    <div class="container subscribe-container" id="subscribe">
+    <div class="container-fluid subscribe-container" id="subscribe">
         <h2 class="uppercase heading">Subscribe to our Newsletter!</h2>
         <hr class="heading-divider--black heading-divider">
         <p class="form-text">Would you like to recieve monthly news about the hottest climbing locations?
             <br>
             Subscribe to our newsletter!
         </p>
-        <div class="row">
-            <div class="col-lg-12">
-                <form class="subscribe-form">
-                    <div class="form-group col">
-                        <label for="firstName">First Name:</label>
-                        <input type="text" class="form-control" id="firstName" aria-describedby="emailHelp"
-                            placeholder="First Name" required>
-                    </div>
-                    <div class="form-group col">
-                        <label for="lastName">Last Name:</label>
-                        <input type="text" class="form-control" id="lastName" aria-describedby="emailHelp"
-                            placeholder="Last Name" required>
-                    </div>
-                    <div class="form-group col">
-                        <label for="email">Email:</label>
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
-                            placeholder="Your Email" required>
-                        <small id="emailHelp" class="form-text text-muted">We promise to use your Email for climbing
-                            purposes
-                            only!</small>
-                    </div>
-                    <div class="form-group col">
-                        <label for="feedback">What else would you like to see?</label>
-                        <textarea id="feedback" class="form-control" rows="5"
-                            placeholder="Give us your feedback!"></textarea>
-                    </div>
-                    <button type="submit" class="btn">Submit</button>
-                </form>
+        <form class="subscribe-form">
+            <div class="row">
+                <div class="form-group col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" class="form-control" id="firstName" aria-describedby="emailHelp"
+                        placeholder="First Name" required>
+                </div>
             </div>
-        </div>
+            <div class="row">
+                <div class="form-group col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" class="form-control" id="lastName" aria-describedby="emailHelp"
+                        placeholder="Last Name" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                        placeholder="Your Email" required>
+                    <small id="emailHelp" class="form-text text-muted">We promise to use your Email for climbing
+                        purposes
+                        only!</small>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                    <label for="feedback">What else would you like to see?</label>
+                    <textarea id="feedback" class="form-control" rows="5"
+                        placeholder="Give us your feedback!"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+            </div>
+        </form>
     </div>
     <!-- NewsLetter section -->
     <footer>
@@ -196,7 +204,8 @@
                     <p class="footer-text"><small>All logo's and images used on this website are not owned by the
                             creator of this website. No
                             credit is taken, this website is for educational purposes only.</small></p>
-                    <span class="copyright-text"><small><i class="fas fa-copyright"></i>Design is credited to creator of
+                    <span class="copyright-text"><small><i class="fas fa-copyright"></i> Design is credited to creator
+                            of
                             this website.</small></span>
                 </div>
                 <!-- copyright policy -->
