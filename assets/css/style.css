@@ -239,3 +239,23 @@ a:hover {
 .link-list {
     display: inline;
 }
+
+/* ============Media Queries============ */
+
+@media screen and (min-width: 0) {
+  .crag-link-lg a img {
+      display: none;
+  }
+}
+
+
+@media screen and (min-width: 992px) {
+  .crag-link-lg a img {
+      display: initial;
+  }
+  
+  article a img {
+        display: none;
+    }
+}
+
