@@ -114,6 +114,10 @@ body {
     letter-spacing: 4px;
 }
 
+.bg-color-gear {
+    background-color: #e4a923;
+}
+
 .btn:hover {
     background-color: rgba(0, 0, 0, 0.5) ;
     color: #fafafa;
@@ -174,7 +178,8 @@ body {
 .gear-logo {
     width: 25vh;
     height: 25vh;
-    border-radius: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 /* --------Dividers-------- */
 
