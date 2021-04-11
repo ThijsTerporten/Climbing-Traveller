@@ -170,6 +170,12 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.gear-logo {
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+}
 /* --------Dividers-------- */
 
 .heading-divider {
