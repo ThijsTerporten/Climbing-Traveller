@@ -87,6 +87,10 @@ body {
     background-color: #e4a923;
 }
 
+.dropdown-menu {
+    background-color: #e4a923;
+}
+
 .main-heading {
     color: #fafafa;
 }
@@ -134,6 +138,7 @@ body {
     color: #fafafa;
 }
 /* --------Navbar-------- */
+
 
 
 /* --------Background Hero Image-------- */
