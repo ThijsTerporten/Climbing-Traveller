@@ -62,8 +62,6 @@ Every other page is designed keeping this layout in mind as this provides intuit
 
 ## Skeleton
 
-## Surface
-
 ## Features
 
 This section contains some of the features this project contains:
@@ -94,11 +92,11 @@ This project was build using the following technologies:
 
 * HTML5
 * CSS3
-* Bootstrap
+* Bootstrap: for grid and flexbox.
 * Google Chrome Dev Tools: for testing purposes.
-* Lighthouse
-* Jquery.
-* Prettier to beautify code. 
+* Lighthouse: Used for testing website performence.
+* Jquery: to simplify DOM manipulation.
+* Prettier: to beautify code. 
 
 ## Testing
 
@@ -109,6 +107,34 @@ I took into consideration on what devices my users would like to see the website
 For testing I designed the website mobile first, with extensive testing using Chrome DevTools for all Iphone's.
 Using DevTools I continued testing the website using settings for the Ipad and a 15.6 inch laptop screen.
 For large screens I used a 24 inch monitor.
+
+### Bugs
+
+#### Images
+
+Early on I was having a hard time getting the images to display properly. A quick google search told me to set a height of 100% to the element using css in order for it 
+to display as intended. After telling my mentor what my issue was she send me a lot of links to articles and explained to me in detail how a background-image should be implemented
+properly which gave me a clear understanding and prevented me from making the mistake later on. 
+In the gear section the image had to be positioned further because the center of the image would go underneath the navbar on larger screens.
+
+#### Bootstrap grid
+
+I made a mistake while using bootstrap grid early on with the images, navbar and form part of index.html. Which made it quite difficult implementing it later on. 
+Even though I was able to fix it, it learned me an important lesson to implement the correct classes in the proper order early on. Which made making the footer and the remaining
+pages significantly faster. 
+Furthermore the mistake made implementing the bootstrap grid would lead to a lot of unneccesary css which could have been avoided if the grid was implemented earlier on in development.
+
+#### 27-crags link icons in bouldering and lead.html
+
+While screen testing these pages I realised that the links underneath the text would not allign properly on the larger and medium size screens. 
+After discussing this issue in a mentoring session, I got the idea to create new rows and cols using the bootstrap grid and using media-queries to make sure they are always shown
+in a straight line related to each other.
+
+#### subcribe in navbar and footer when on a different page from index.html
+
+Whenever I would click on the subscribe navigation it would not take me to the part of the page where you should be able to fill in the form. A quick google search and I was
+able to find a fix for this. Where is was using index.html/#subscribe it should've been index.html#subscribe. After thinking about it this makes sense to me now, 
+since you are searching for an ID on the same level and not in an underlying folder. 
 
 ### Implementation
 
