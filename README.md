@@ -108,6 +108,34 @@ For testing I designed the website mobile first, with extensive testing using Ch
 Using DevTools I continued testing the website using settings for the Ipad and a 15.6 inch laptop screen.
 For large screens I used a 24 inch monitor.
 
+### Implementation
+
+As this is the first website that I created on my own I had no experience debugging on my own. Testing was mainly done using DevTools in google chrome. 
+Starting mobile first then working my way up to bigger screen sizes. 
+Whenever an element wasn't located where I wanted it to be I would use the element.style box in DevTools to find a solution. 
+The element.style box was also used to pick color's for the navbar, the button underneath the subscribe form, the color of the footer and the opicity on top of the images.
+
+I used Lighthouse in the DevTools as well to check the performance of my website and find errors in my code, for example I didn't have any rel="noopener noreffer" tags in 
+my links that have target="_blank". Lighthouse made it clear to me why these tags are important to include. 
+
+I used the WC3 code validators to check my code for mistakes as well. 
+
+Testing is done in the following way: 
+
+1. Scroll up and down the page checking for overflow and general positioning of items.
+2. Use navigation bar to move to section of the page. -This is where the problem was found when on different pages for the subscribe link-. 
+3. In the form, try and click the button to check wether all fields are required to be filled in, check as well wether the e-mail part was set to e-mail.
+4. Check all links in the footer and on the gear-page wether they react as intended by opening in a new tab (for links section in footer).
+5. Check wether the navigation part in the footer works correctly as intended. 
+6. Rinse and repeat step 1 to 5 for each page.
+7. Run through all of these steps for each different screen size.
+
+Note: For the gear.html page check wether all logo links open up in a new tab. 
+
+### Results
+
+While running tests on a mobile device on the gear.html page I found a small overflow which was fixed. 
+
 ### Bugs
 
 #### Images
@@ -133,8 +161,5 @@ in a straight line related to each other.
 #### subcribe in navbar and footer when on a different page from index.html
 
 Whenever I would click on the subscribe navigation it would not take me to the part of the page where you should be able to fill in the form. A quick google search and I was
-able to find a fix for this. Where is was using index.html/#subscribe it should've been index.html#subscribe. After thinking about it this makes sense to me now, 
+able to find a fix for this. Where I was using index.html/#subscribe it should've been index.html#subscribe. After thinking about it this makes sense to me now, 
 since you are searching for an ID on the same level and not in an underlying folder. 
-
-### Implementation
-
