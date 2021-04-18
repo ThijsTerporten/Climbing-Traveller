@@ -134,7 +134,9 @@ Note: For the gear.html page check wether all logo links open up in a new tab.
 
 ### Results
 
-While running tests on a mobile device on the gear.html page I found a small overflow which was fixed. 
+While running tests on a mobile device on the gear.html page I found a small overflow on the right side of the screen. 
+While clicking on the about and subscribe links in the navbar I found the navbar not collapsing, which led to a bad UX, the Navbar would overlap the content it was meant to go to.
+This was fixed by doing some research on data-toggle and data-target in the bootstrap documentation. 
 
 ### Bugs
 
