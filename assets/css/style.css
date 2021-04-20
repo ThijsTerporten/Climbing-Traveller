@@ -27,7 +27,7 @@ body {
 
 .main-heading {
     margin: 0;
-    font-size: 8vh;
+    font-size: 6vh;
     letter-spacing: 2px; 
     animation-name: fadeInImageContent;
     animation-duration: 3s;
