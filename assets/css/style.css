@@ -132,7 +132,7 @@ body {
 .copyright-text {
     color: #fafafa;
 }
-/* --------Navbar-------- */
+/* --------Navbar: use of !important to overwrite bootstrap-------- */
 
 .nav-link:hover {
     color: #fafafa !important;
