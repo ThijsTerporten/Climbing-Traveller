@@ -28,7 +28,10 @@ body {
 .main-heading {
     margin: 0;
     font-size: 8vh;
-    letter-spacing: 2px;  
+    letter-spacing: 2px; 
+    animation-name: fadeInImageContent;
+    animation-duration: 3s;
+    animation-direction: normal;
 }
 
 .heading { 
@@ -52,6 +55,9 @@ body {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
+    animation-name: fadeInImageContent;
+    animation-duration: 3s;
+    animation-direction: normal;
 }
 
 .about-text {
@@ -135,7 +141,7 @@ body {
 /* --------Navbar: use of !important to overwrite bootstrap-------- */
 
 .navbar {
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 20px -12px;
 }
 
 .nav-link:hover {
@@ -201,6 +207,13 @@ body {
 
 .heading-divider--black {
     background-color: #333;   
+}
+
+.animate-divider {
+    animation-name: fadeInImageContent;
+    animation-duration: 3s;
+    animation-direction: normal;
+    
 }
 
 /* --------Containers-------- */
@@ -274,3 +287,13 @@ a:hover {
     }
 }
 
+/* Animation for Image Content */
+
+
+@keyframes fadeInImageContent {
+    0% {opacity: 0;}
+    25% {opacity: 0.25;}
+    50% {opacity: 0.5;}
+    75% {opacity: 0.75;}
+    100% {opacity: 1;}
+}
