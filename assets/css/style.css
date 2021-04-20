@@ -134,8 +134,14 @@ body {
 }
 /* --------Navbar-------- */
 
+.nav-link:hover {
+    color: #fafafa !important;
+}
 
-
+.dropdown-item:hover {
+    background-color: #e4a923 !important;
+    color: #fafafa !important;
+}
 /* --------Background Hero Image-------- */
 
 .hero-image {
