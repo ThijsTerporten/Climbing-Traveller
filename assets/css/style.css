@@ -11,6 +11,7 @@ body {
     margin: 0;
     font-family: "Roboto" , sans-serif;
     background-color: #fafafa;
+    font-size: 100%;
 }
 
 /* Set width and height for all images for faster loading times */
@@ -19,18 +20,7 @@ img {
     height: auto;
 }
 
-/* Used to create responsive typography, will later on be created by using sass */
-h1 {
-    font-size: 8vw;
-}
 
-h2 {
-    font-size: 4vw;
-}
-
-p {
-    font-size: 1vw;
-}
 
 
 /* --------Headings-------- */
@@ -44,8 +34,7 @@ p {
 
 .main-heading {
     margin: 0;
-    /* font-size: 6vw; */
-    letter-spacing: 2px; 
+    /* letter-spacing: 2px;  */
     animation-name: fadeInImageContent;
     animation-duration: 2.5s;
     animation-direction: normal;
@@ -54,7 +43,7 @@ p {
 
 .heading { 
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     padding-top: 40px;
     padding-bottom: 20px;
     font-weight: 200;
@@ -307,6 +296,18 @@ a:hover {
         display: none;
     }
 }
+
+@media screen and (max-width:414px) {
+    h1 {
+        font-size: 5vh;
+    }
+
+    h2 {
+        font-size: 4vh;
+    }
+}
+
+
 
 /* Animation for Image Content */
 
