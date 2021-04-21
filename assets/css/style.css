@@ -20,9 +20,6 @@ img {
     height: auto;
 }
 
-
-
-
 /* --------Headings-------- */
 
 .full-bg-image {
@@ -125,10 +122,10 @@ img {
     color: black;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 
-.bg-color-gear {
+.bg-color-orange {
     background-color: #e4a923;
 }
 
@@ -144,9 +141,6 @@ img {
     color: #fafafa;
 }
 
-.copyright-text {
-    color: #fafafa;
-}
 /* --------Navbar: use of !important to overwrite bootstrap-------- */
 
 .navbar {
@@ -239,7 +233,25 @@ img {
 }
 /* =======Form======= */
 
+.orange-box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
 
+.white-box {
+    background-color: #fafafa;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 50vw;
+    height: auto;
+    align-content: center;
+    align-items: stretch;
+    border-radius: 10px;
+    box-shadow: rgba(0 0 0 / 61%) 30px 40px 50px -20px;
+}
 
 /* =========Footer======= */
 
@@ -297,6 +309,7 @@ a:hover {
     }
 }
 
+/* Font sizes set specifically for smaller screens */
 @media screen and (max-width:414px) {
     h1 {
         font-size: 5vh;
@@ -307,6 +320,13 @@ a:hover {
     }
 }
 
+@media screen and (max-width:768px) {
+    .white-box {
+        width: 75vw;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
 
 
 /* Animation for Image Content */
