@@ -145,7 +145,8 @@ Once I had a general idea on how to run testing I followed all steps for each of
 * Scrolling through index.html it caught my attention that the subscribe form looked 'off'. It would fill the entire screen in width and since everything was centered
   it looked all over the place which led to a bad UX.
 * While going through bouldering.html and lead-climbing.html I noticed that on medium and large screens the logo's underneath the text were going all over the place.
-* When looking at the image on the gear.html page on smaller screens I noticed that the position of the image was a little bit off.
+* When looking at the image on the gear.html page on smaller screens I noticed that the position of the image was a little bit off. This was an easy fix by positioning the image slightly different
+  than the others.
 * I noticed in gear.html that because I used the same color for the navbar and background-color in the logo-section, the navbar would look like it was being absorbed 
   by the section.
 
@@ -160,11 +161,23 @@ While running my code through the HTML-validator on W3C-schools I was made aware
 section that contains the articles in bouldering.html and lead-climbing.html.
 
 Running my code through the CSS-validator on W3C-schools (Jigsaw) no errors where found.
+
 HTML-validator results:
 Jigsaw-result:
 
 
 ### Bugs
+
+#### Overflow on smaller screens
+
+During testing for smaller screens I noticed that there was a overflow on the right side of the screens.
+First I checked whether I had all bootstrap included correctly, which I had since there where no issues on the other two pages. 
+After disabling elements of the website that could cause the problem at first I thought it was the size of some words on my webpage that would break and cause the overflow, making some words
+smaller fixes the issue for the time being but that should only be a temporary solution.
+After further looking into this I realised it didn't have anything to do with the size of the words but my font-size was causing the problems (Set to 8vh at that moment) of the overflow on my page.
+After doing further research on the matter I found that it is possible to fix this by using SASS. (Will be done this way in the future.)
+For the time being I removed all styling regarding font-size in my css and instead set the font-size in the general styling-section of my CSS code. To accomodate the sizes properly on smaller screens
+I added custom media queries for the font-size to balance it out within the limits of my current knowledge on the matter.
 
 #### Images
 
@@ -179,6 +192,20 @@ I made a mistake while using bootstrap grid early on with the images, navbar and
 Even though I was able to fix it, it learned me an important lesson to implement the correct classes in the proper order early on. Which made making the footer and the remaining
 pages significantly faster. 
 Furthermore the mistake made implementing the bootstrap grid would lead to a lot of unneccesary css which could have been avoided if the grid was implemented earlier on in development.
+After doing testing I found out that this affected the targets of my links using the navigation as well. This has since been fixed.
+
+#### Dropdown burger menu not collapsing when clicking on a link
+
+During testing I noticed that the burger menu wouldn't collapse when using the links thus covering the content it is navigating to. This was fixed by going
+through bootstrap documentation and using google. The terms 'data-target' and 'data-toggle' came up. Adding the data-target:"navbar.collapse.show" to al nav-items fixed
+the issue.
+
+#### Colors of nav-items in navbar and dropdown-menu
+
+While testing I noticed that it was a bad UX to have the nav-items remain in the same color while hovering on them with the mouse.
+Using dev-tools I was able to find out what classes to target in CSS this however didn't fix my problem immediatly, after doing some googling I found out that 
+bootstrap classes had to be overwritten. 
+I did this by using !important in my CSS code.
 
 #### 27-crags link icons in bouldering and lead.html
 
@@ -186,10 +213,15 @@ While screen testing these pages I realised that the links underneath the text w
 After discussing this issue in a mentoring session, I got the idea to create new rows and cols using the bootstrap grid and using media-queries to make sure they are always shown
 in a straight line related to each other.
 
-#### subcribe in navbar and footer when on a different page from index.html
+#### Subcribe in navbar and footer when on a different page from index.html
 
 Whenever I would click on the subscribe navigation it would not take me to the part of the page where you should be able to fill in the form. A quick google search and I was
 able to find a fix for this. Where I was using index.html/#subscribe it should've been index.html#subscribe. After thinking about it this makes sense to me now, 
 since you are searching for an ID on the same level and not in an underlying folder. 
 
-This was fixed by doing some research on data-toggle and data-target in the bootstrap documentation. 
+#### Navbar blending in with color on gear.html page
+
+While testing I noticed that the background-color on the gear.html page where the logo's for the brands are made the navbar fade away slightly. This caused a bad UX and made that part of the page appear kind of one-
+dimensional. This led to the decision to give my navbar the illusion that it was 'floating'. After doing some googling on the subject I found a website with some cool designs for this. (link is included in acknowledgements)
+I used the CSS snippet and modified it to my liking, which gave the scrolling through the pages a better visual experience.
+
