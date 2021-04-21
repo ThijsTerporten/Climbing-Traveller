@@ -129,14 +129,40 @@ Testing is done in the following way:
 5. Check wether the navigation part in the footer works correctly as intended. 
 6. Rinse and repeat step 1 to 5 for each page.
 7. Run through all of these steps for each different screen size.
+8. Use HTML and CSS validators from W3C schools to find mistakes in code.
 
-Note: For the gear.html page check wether all logo links open up in a new tab. 
+Note: For the gear.html page check whether all logo links open up in a new tab. 
 
 ### Results
 
-While running tests on a mobile device on the gear.html page I found a small overflow on the right side of the screen. 
-While clicking on the about and subscribe links in the navbar I found the navbar not collapsing, which led to a bad UX, the Navbar would overlap the content it was meant to go to.
-This was fixed by doing some research on data-toggle and data-target in the bootstrap documentation. 
+Once I had a general idea on how to run testing I followed all steps for each of my pages which gave me the following results:
+
+* While testing on the smallest mobile devices in DevTools I noticed that there was a slight overflow on the right. 
+* When using the links in the navbar I noticed that the navbar would not automatically close when using a link once the navbar became a burger icon.
+  This led to a poor UX since the dropdown menu would cover the text it was meant to navigate to.
+* When using the dropdown menu links hovered over would remain black and the dropdown menu color was white, this didn't match with the design I had in mind using 
+  my picked color scheme. 
+* Scrolling through index.html it caught my attention that the subscribe form looked 'off'. It would fill the entire screen in width and since everything was centered
+  it looked all over the place which led to a bad UX.
+* While going through bouldering.html and lead-climbing.html I noticed that on medium and large screens the logo's underneath the text were going all over the place.
+* When looking at the image on the gear.html page on smaller screens I noticed that the position of the image was a little bit off.
+* I noticed in gear.html that because I used the same color for the navbar and background-color in the logo-section, the navbar would look like it was being absorbed 
+  by the section.
+
+Running my code in lighthouse I was able to see the performance, accessibillity, best practices and SEO of the website.
+The overall score of each of the pages can be found here: 
+
+Using lighthouse I was able to optimise the performance of the website given my current knowledge. (Some performance enhancements require JavaScript: Creating responsive images)
+I was made aware that when using target="_blank" links I should include rel="noopener noreffer" as well to prevent the JavaScript function window.opener from stealing data
+from my website by running the exact same process. Whereas noreffer ensures the target website can't see where the referral is coming from.
+
+While running my code through the HTML-validator on W3C-schools I was made aware that I used blockquote in an incorrect way and that there was no heading to define the 
+section that contains the articles in bouldering.html and lead-climbing.html.
+
+Running my code through the CSS-validator on W3C-schools (Jigsaw) no errors where found.
+HTML-validator results:
+Jigsaw-result:
+
 
 ### Bugs
 
@@ -165,3 +191,5 @@ in a straight line related to each other.
 Whenever I would click on the subscribe navigation it would not take me to the part of the page where you should be able to fill in the form. A quick google search and I was
 able to find a fix for this. Where I was using index.html/#subscribe it should've been index.html#subscribe. After thinking about it this makes sense to me now, 
 since you are searching for an ID on the same level and not in an underlying folder. 
+
+This was fixed by doing some research on data-toggle and data-target in the bootstrap documentation. 
