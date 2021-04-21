@@ -232,3 +232,12 @@ I used the CSS snippet and modified it to my liking, which gave the scrolling th
 
 ## Deployment
 
+
+
+## Credits 
+
+## Content
+
+## Media 
+
+## Acknowledgements 
