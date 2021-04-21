@@ -107,6 +107,8 @@ I took into consideration on what devices my users would like to see the website
 For testing I designed the website mobile first, with extensive testing using Chrome DevTools for all Iphone's.
 Using DevTools I continued testing the website using settings for the Ipad and a 15.6 inch laptop screen.
 For large screens I used a 24 inch monitor.
+I wanted my page to be seen in a horizantel manner on larger screens a vertical manner for small screens, and on medium sized screens
+I am aiming to be in the middle of these two.
 
 ### Implementation
 
@@ -129,7 +131,8 @@ Testing is done in the following way:
 5. Check wether the navigation part in the footer works correctly as intended. 
 6. Rinse and repeat step 1 to 5 for each page.
 7. Run through all of these steps for each different screen size.
-8. Use HTML and CSS validators from W3C schools to find mistakes in code.
+8. Check each page whether breakpoints respond as intended using 'responsive' in DevTools.
+9. Use HTML and CSS validators from W3C schools to find mistakes in code.
 
 Note: For the gear.html page check whether all logo links open up in a new tab. 
 
@@ -149,6 +152,8 @@ Once I had a general idea on how to run testing I followed all steps for each of
   than the others.
 * I noticed in gear.html that because I used the same color for the navbar and background-color in the logo-section, the navbar would look like it was being absorbed 
   by the section.
+* After checking for breakpoints I realised that it would be better to show the items in a vertical manner as well. I noticed that the text would be too cropped causing bad UX.
+  This was easily corrected by removing bootstrap-grid classes for medium sized screens.
 
 Running my code in lighthouse I was able to see the performance, accessibillity, best practices and SEO of the website.
 The overall score of each of the pages can be found here: 
@@ -224,4 +229,6 @@ since you are searching for an ID on the same level and not in an underlying fol
 While testing I noticed that the background-color on the gear.html page where the logo's for the brands are made the navbar fade away slightly. This caused a bad UX and made that part of the page appear kind of one-
 dimensional. This led to the decision to give my navbar the illusion that it was 'floating'. After doing some googling on the subject I found a website with some cool designs for this. (link is included in acknowledgements)
 I used the CSS snippet and modified it to my liking, which gave the scrolling through the pages a better visual experience.
+
+## Deployment
 
