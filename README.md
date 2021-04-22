@@ -92,11 +92,15 @@ This project was build using the following technologies:
 
 * HTML5
 * CSS3
-* Bootstrap: for grid and flexbox.
+* Bootstrap: for their grid and use of their CSS and JavaScript library.
 * Google Chrome Dev Tools: for testing purposes.
-* Lighthouse: Used for testing website performence.
+* Lighthouse: Used for testing website performance, check for best practices, SEO and accessibillity.
 * Jquery: to simplify DOM manipulation.
+* Popper: to ensure all JavaScript libraries from bootstrap work as intended.
 * Prettier: to beautify code. 
+* W3C HTML-validator: Used to find mistakes in my html code.
+* Jigsaw: Used to find mistakes in my CSS code.
+* FontAwesome: used for icons in the footer. 
 
 ## Testing
 
@@ -152,8 +156,11 @@ Once I had a general idea on how to run testing I followed all steps for each of
   than the others.
 * I noticed in gear.html that because I used the same color for the navbar and background-color in the logo-section, the navbar would look like it was being absorbed 
   by the section.
-* After checking for breakpoints I realised that it would be better to show the items in a vertical manner as well. I noticed that the text would be too cropped causing bad UX.
+* After checking for breakpoints I realised that it would be better to show the items in a vertical manner on medium screens as well. I noticed that the text would be too cropped causing bad UX.
   This was easily corrected by removing bootstrap-grid classes for medium sized screens.
+* After checking everything again once the project was nearing it's completion I found the layout chosen for several elements quite stale and not engaging enough for my liking.
+  While playing around with box-shadow property's I decided to make the form look like it was floating on an orange background, and when hovering over the articles it looks like
+  they pop towards the front.
 
 Running my code in lighthouse I was able to see the performance, accessibillity, best practices and SEO of the website.
 The overall score of each of the pages can be found here: 
@@ -232,6 +239,22 @@ I used the CSS snippet and modified it to my liking, which gave the scrolling th
 
 ## Deployment
 
+This project is deployed using gitpod in combination with github pages.
+I used gitpod to write all code and seeing it is linked with github it was easy to use the terminal to commit, and push my code to their server.
+The deployed website is hosted on github pages. Which makes it easier for users to view the 'finished' code without having to clone or fork it themselves.
+
+Deployment was done in the following way:
+
+1. Click on settings tab on my repository.
+2. Click the pages tab. 
+3. Set source branch to master. This created a link to the deployed version of the website.
+
+If you would like to run this project locally you would have to follow these steps:
+
+1. Click Clone/Download.
+2. Choose your preferred method. (Zip/github desktop)
+3. Open in your preferred IDE.
+4. Run on your local server. 
 
 
 ## Credits 
