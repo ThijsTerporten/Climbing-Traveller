@@ -101,6 +101,7 @@ This project was build using the following technologies:
 * W3C HTML-validator: Used to find mistakes in my html code.
 * Jigsaw: Used to find mistakes in my CSS code.
 * FontAwesome: used for icons in the footer. 
+* Balsamiq: creating original wireframes.
 
 ## Testing
 
@@ -174,8 +175,8 @@ section that contains the articles in bouldering.html and lead-climbing.html.
 
 Running my code through the CSS-validator on W3C-schools (Jigsaw) no errors where found.
 
-HTML-validator results:
-Jigsaw-result:
+* HTML-validator results:
+* Jigsaw-result:
 
 
 ### Bugs
@@ -256,11 +257,33 @@ If you would like to run this project locally you would have to follow these ste
 3. Open in your preferred IDE.
 4. Run on your local server. 
 
-
 ## Credits 
+
+* Fontawesome for use from their icons. [Fontawesome](https://fontawesome.com/).
+* 27-crags for use of their logo. [27-crags](https://27crags.com/).
+* The logo's used in the gear.html page all belong to their respective brands, and where only used for educational purposes.
+* Bootstrap for use of their grid system, documentation and libraries. [bootstrap](https://getbootstrap.com/).
+* Getcssscan to give me some inspiration on using the box-shadow property [Getcssscan](https://getcssscan.com/css-box-shadow-examples).
+* README template from code institute [README.md template](https://github.com/Code-Institute-Solutions/readme-template).
 
 ## Content
 
+All content in this project are small summaries of their description on 27-crags. Apart from Avalonia which has no description on 27-crags,
+description for this page is done by doing research on the area itself and by watching the movie about it on the youtube channel of patagonia.
+[Thesoulofclimbing](https://www.youtube.com/watch?v=Yj7ZCYMgSvw)
+
 ## Media 
 
+* All images where taken from [Unsplash](https://www.unsplash.com) and [Pexels](https://www.pexels.com/nl-nl/).
+* Freepik for the climbing logo in the top left of the page. [Freepik](https://www.freepik.com/premium-vector/mountain-climbing-logo_1809177.htm).
+* All images and their respective copyright in the gear.html page belong to the brand itself. This project was created for educational use only. 
+
 ## Acknowledgements 
+
+I would like to acknowledge my mentor Antonija Simic who is simply awesome. She made sure I kept focused on the important things, 
+send me usefull information during our mentoring sessions about things she saw I was struggling with. 
+She made sure I used best practices from the get go. For example not using ID's when writing my CSS-code (ID's are extremely hard to overwrite in CSS).
+
+**This project was created for educational purposes only, credit for all images goes to their owners**
+
+**Created by Thijs Terporten**
