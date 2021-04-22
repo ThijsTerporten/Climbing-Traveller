@@ -94,6 +94,10 @@ img {
 }
 /* --------Colors-------- */
 
+article {
+    background-color: #fafafa;
+}
+
 .bg-color-navbar {
     background-color: #e4a923;
 }
@@ -206,6 +210,7 @@ img {
 .heading-divider {
     width: 40%;
     background-color: #fafafa;
+    margin-bottom: 50px;
 }
 
 .heading-divider--black {
@@ -236,9 +241,6 @@ img {
 .orange-box {
     padding-top: 50px;
     padding-bottom: 50px;
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
 }
 
 .white-box {
@@ -252,7 +254,20 @@ img {
     border-radius: 10px;
     box-shadow: rgba(0 0 0 / 61%) 30px 40px 50px -20px;
 }
+/* =========Articles======== */
 
+article {
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+
+article:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 20px -10px 30px -5px;
+}
+
+.crag-link-lg {
+    margin-top: 5px;
+}
 /* =========Footer======= */
 
 .footer-nav {
@@ -320,11 +335,15 @@ a:hover {
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:990px) {
     .white-box {
         width: 75vw;
         padding-left: 20px;
         padding-right: 20px;
+    }
+    article {
+        margin-bottom: 20px;
+        padding-bottom: 25px;
     }
 }
 
@@ -346,3 +365,4 @@ a:hover {
     95% {opacity: 0.90;}
     100% {opacity: 1;}
 }
+
