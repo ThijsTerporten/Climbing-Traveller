@@ -36,6 +36,7 @@ img {
     animation-duration: 2.5s;
     animation-direction: normal;
     animation-timing-function: linear;
+    font-weight: 800;
 }
 
 .heading { 
@@ -159,6 +160,13 @@ article {
     background-color: #e4a923 !important;
     color: #fafafa !important;
 }
+
+.active {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 20px;
+}
+
 /* --------Background Hero Image-------- */
 
 .hero-image {
@@ -185,7 +193,7 @@ article {
     background-image: url("../images/gear-up.jpg");
     background-position: top center;
 }
-/* --------Logo-------- */
+/* --------Logo's-------- */
 
 .logo {
     max-height: 50px;
@@ -199,12 +207,13 @@ article {
 }
 
 .gear-logo {
-    width: 250px;
-    height: 250px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 25%;
+    width: 10rem;
+    height: 10rem;
+    margin-top: 5rem;
+    border-radius: 5px;
 }
+
+
 /* --------Dividers-------- */
 
 .heading-divider {
