@@ -90,7 +90,18 @@ Every other page is designed keeping this layout in mind as this provides intuit
 ## Wireframes
 
 The original wireframes can be found [here](assets/images/wireframes/wireframe.png)
+
 ### Changes to wireframes
+
+The original concept of my website was to make it one long page. However after discussing my idea's with my mentor (Antonija Simic).
+She explained to me that it was bad UX to have part of your website that 'sells' things on your landing page, and that sign-up forms on your website should 
+always be on different pages.
+That's why I made the decision to keep the lay-out roughly the same but split the sections up on different pages. 
+This gave me the option to add more brands to the gear section, and would make it easier in future updates to add more climbing locations to each section
+since I already have them split up. The negative side to this decision is that it makes the site feel kind of minimal in its current iteration, but that can be fixed in 
+future updates. 
+
+
 ## Features
 
 This section contains some of the features this project contains:
