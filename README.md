@@ -89,7 +89,7 @@ Every other page is designed keeping this layout in mind as this provides intuit
 
 ## Wireframes
 
-The original wireframes can be found [here](assets/images/wireframes/original-wireframe.bmpr)
+The original wireframes can be found [here](assets/images/wireframes/wireframe.png)
 ### Changes to wireframes
 ## Features
 
