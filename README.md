@@ -9,6 +9,32 @@ about new locations to consider for their next trip.
 
 A deployed version of my website can be found [here.](https://thijsterporten.github.io/Milestone-1/index.html)
 
+## navigation
+
+* [UX](#ux)
+  + [UX-stories](#ux-stories)
+* [Strategy](#strategy)
+  + [User-needs](#user-needs)
+  + [Business-vision](#business-vision)
+* [Scope](#scope)
+* [Structure](#structure)
+* [Wireframes](#wireframes)
+  + [Changes](#changes-to-wireframes)
+* [Features](#features)
+  + [Existing-features](#existing-features)
+  + [Future-features](#futere-features)
+* [Technologies](#technologies)
+* [Testing](#testing)
+  + [Testing-[plan](#testing-plan)
+  + [Implementation](#implementation)
+  + [Results](#results)
+* [Bugs](#bugs)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [Content](#content)
+* [Media](#media)
+* [Acknowledgements](#acknowledgements)
+
 ## UX
 
 The end user of this project can be anyone interested in finding a location to go on holiday and climb at the same time, or even someone that already
@@ -60,8 +86,8 @@ of what the site is about and then naturally find a form to allow the user to su
 menu to easily find the type of climbing they are interested in or the section of the site to find new gear. 
 Every other page is designed keeping this layout in mind as this provides intuitve learning for the user. 
 
-## Skeleton
-
+## Wireframes
+### Changes to wireframes
 ## Features
 
 This section contains some of the features this project contains:
