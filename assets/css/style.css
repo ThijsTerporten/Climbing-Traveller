@@ -198,7 +198,8 @@ article {
 .logo {
     max-height: 50px;
     max-width: 50px;
-    border-radius: 50%;     
+    border-radius: 50%;
+    box-shadow: 7px 3px 8px -3px;     
 }
 
 .crag-link {
@@ -209,11 +210,13 @@ article {
 .gear-logo {
     width: 10rem;
     height: 10rem;
-    margin-top: 5rem;
     border-radius: 5px;
+    padding-bottom: 20px;
 }
 
-
+.gear-logo:hover {
+    box-shadow: rgba(0 0 0 / 50%) 50px -36px 28px -35px;
+}
 /* --------Dividers-------- */
 
 .heading-divider {
@@ -238,18 +241,24 @@ article {
 
 .climbing-container {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 25px;
 }
 
 .footer-container {
     padding-top: 10px;
     margin-top: 0;
 }
+
+.logo-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 /* =======Form======= */
 
 .orange-box {
     padding-top: 50px;
     padding-bottom: 50px;
+    border-radius: 10px;
 }
 
 .white-box {
@@ -322,7 +331,6 @@ a:hover {
   }
 }
 
-
 @media screen and (min-width: 992px) {
   .crag-link-lg a img {
       display: initial;
@@ -331,6 +339,10 @@ a:hover {
   article a img {
         display: none;
     }
+
+  .orange-box {
+      width: 65%;
+  }
 }
 
 /* Font sizes set specifically for smaller screens */
