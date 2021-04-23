@@ -46,7 +46,7 @@ The end user of this project would like to find clear descriptions of the locati
 * Accomodations. 
 * Other things to do in the area.
 
-The end goal of the project is to get people excited about climbing and inform them about outdoor climbing.
+The end goal of the project is to get people excited about climbing and inform them about outdoor climbing-locations.
 
 ### UX stories
 
@@ -87,6 +87,8 @@ menu to easily find the type of climbing they are interested in or the section o
 Every other page is designed keeping this layout in mind as this provides intuitve learning for the user. 
 
 ## Wireframes
+
+The original wireframes can be found [here](assets/images/wireframes/original-wireframe.bmpr)
 ### Changes to wireframes
 ## Features
 
