@@ -6,6 +6,7 @@ While providing them different links to purchase any new gear and give them the 
 about new locations to consider for their next trip.
 
 ## Showcase
+![Showcase-screenshot](assets/images/wireframes/milestone.png)
 
 A deployed version of my website can be found [here.](https://thijsterporten.github.io/Milestone-1/index.html)
 
@@ -25,7 +26,7 @@ A deployed version of my website can be found [here.](https://thijsterporten.git
   + [Future-features](#futere-features)
 * [Technologies](#technologies)
 * [Testing](#testing)
-  + [Testing-[plan](#testing-plan)
+  + [Testing-plan](#testing-plan)
   + [Implementation](#implementation)
   + [Results](#results)
 * [Bugs](#bugs)
