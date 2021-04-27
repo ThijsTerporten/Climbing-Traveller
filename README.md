@@ -53,11 +53,12 @@ The end goal of the project is to get people excited about climbing and inform t
 
 * As a user I want to learn more about outdoor climbing locations.
 * As a user I would like to get inspiration for my next climbing trip.
-* Do I need permits or certificates to climb outdoors?
-* What equipment do I need to climb outdoor?
-* Is there any way to learn more about climbing outdoor in general?
+* As a user I want to know what permits I need to climb outdoors.
+* As a user I want to find out what equipment I would need to climb in certain area's.
+* As a user I want to learn more about climbing outdoor in general.
 * As a user I would like to be updated about more locations I could visit in the futere.
-* I already booked my holiday, is there a location I could go and climb near me.
+* As a user I would like to find climbing location's near me.
+* As a user I would like to have a page where major climbing brands are organised.
 
 ## Strategy
 
