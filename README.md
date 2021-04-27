@@ -182,7 +182,7 @@ Testing is done in the following way:
 8. Check each page whether breakpoints respond as intended using 'responsive' in DevTools.
 9. Use HTML and CSS validators from W3C schools to find mistakes in code.
 
-Note: For the gear.html page check whether all logo links open up in a new tab. 
+Note: For the `gear.html` page check whether all logo links open up in a new tab. 
 
 ### Results
 
@@ -196,15 +196,16 @@ Once I had a general idea on how to run testing I followed all steps for each of
 * Scrolling through index.html it caught my attention that the subscribe form looked 'off'. It would fill the entire screen in width and since everything was centered
   it looked all over the place which led to a bad UX.
 * While going through bouldering.html and lead-climbing.html I noticed that on medium and large screens the logo's underneath the text were going all over the place.
-* When looking at the image on the gear.html page on smaller screens I noticed that the position of the image was a little bit off. This was an easy fix by positioning the image slightly different
+* When looking at the image on the `gear.html` page on smaller screens I noticed that the position of the image was a little bit off. This was an easy fix by positioning the image slightly different
   than the others.
 * I noticed in gear.html that because I used the same color for the navbar and background-color in the logo-section, the navbar would look like it was being absorbed 
   by the section.
 * After checking for breakpoints I realised that it would be better to show the items in a vertical manner on medium screens as well. I noticed that the text would be too cropped causing bad UX.
   This was easily corrected by removing bootstrap-grid classes for medium sized screens.
 * After checking everything again once the project was nearing it's completion I found the layout chosen for several elements quite stale and not engaging enough for my liking.
-  While playing around with box-shadow property's I decided to make the form look like it was floating on an orange background, and when hovering over the articles it looks like
-  they pop towards the front.
+  While playing around with box-shadow property's I decided to surround the form with a small shadow to make it appear like it is a card. 
+* While checking for breakpoints I noticed that the text in the articles would crop up to much on screen sizes outside of the bootstrap grid.
+* While testing my links one of the navigation links wasn't working properly, which gave me the idea to include my own custom 404-page.
 
 Running my code in lighthouse I was able to see the performance, accessibillity, best practices and SEO of the website.
 The overall score of each of the pages can be found here: 
@@ -213,8 +214,8 @@ Using lighthouse I was able to optimise the performance of the website given my 
 I was made aware that when using target="_blank" links I should include rel="noopener noreffer" as well to prevent the JavaScript function window.opener from stealing data
 from my website by running the exact same process. Whereas noreffer ensures the target website can't see where the referral is coming from.
 
-While running my code through the HTML-validator on W3C-schools I was made aware that I used blockquote in an incorrect way and that there was no heading to define the 
-section that contains the articles in bouldering.html and lead-climbing.html.
+While running my code through the HTML-validator on W3C-schools I was made aware that I used `<blockquote>` in an incorrect way and that there was no heading to define the 
+section that contains the articles in `bouldering.html` and `lead-climbing.html`.
 
 Running my code through the CSS-validator on W3C-schools (Jigsaw) no errors where found.
 
