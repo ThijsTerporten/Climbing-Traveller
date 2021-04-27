@@ -49,7 +49,7 @@ img {
 
 
 .footer-heading {
-    text-align: center;
+    /* text-align: center; */
     color: #fafafa;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -86,11 +86,9 @@ img {
     display: flex;
     justify-content: flex-start;
     font-family: "Exo" , sans-serif;
-    text-align: center;
 }
 
 .footer-text {
-    text-align: center;
     font-family: "Exo" , sans-serif;
 }
 /* --------Colors-------- */
@@ -118,7 +116,7 @@ article {
 }
 
 .footer-container {
-    background-color: #3b5249 ;
+    background-color: #3b5249;
 }
 
 .btn {
@@ -242,7 +240,7 @@ article {
 
 .climbing-container {
     padding-top: 50px;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
 .footer-container {
@@ -285,6 +283,11 @@ article {
 .footer-nav {
     list-style-type: none;
     font-family: "Exo" , sans-serif;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 .footer-nav li a {
@@ -293,14 +296,6 @@ article {
 
 .footer-nav li a:hover {
     color: #e4a923;
-}
-
-.footer-col {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
 }
 
 a:hover {
@@ -313,7 +308,7 @@ a:hover {
 }
 
 .link-list {
-    display: inline;
+    display: inline; 
 }
 
 /* ============Media Queries============ */
@@ -347,9 +342,7 @@ a:hover {
     }
 }
 
-
 /* Animation for Image Content */
-
 
 @keyframes fadeInImageContent {
     0% {opacity: 0;}
