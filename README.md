@@ -112,14 +112,16 @@ This section contains some of the features this project contains:
 * The user can use the gear up part of the website to find new gear they are looking for.
 * The user can find full descriptions of the location using a link to the app "27-Crags".
 
-
 ### Existing Features
 
 * The navbar collapses in a burger menu when viewed on an mobile device or a tablet.
 * The user is able to fill in a form to sign up to a newsletter (not linked as of now).
 * The user is able to use the website 'Gear Up!' page to find links to different websites that open up in new tabs.
 * The user is able to move to a more detailed description about a location they are interested in by clicking on the link to 27 Crags at the end of the description.
-* 
+* The website has its own custom 404-page (currently on the deployed page only).
+* All links have a hover effect on them. 
+* Text of the heading on each page slowly fades in, followed by the smaller text.
+
 ### Future Features
 
 * In a future release the subscribe form will be linked to a mailing server.
@@ -141,7 +143,7 @@ This project was build using the following technologies:
 * W3C HTML-validator: Used to find mistakes in my html code.
 * Jigsaw: Used to find mistakes in my CSS code.
 * FontAwesome: used for icons in the footer. 
-* Balsamiq: creating original wireframes.
+* Balsamiq: for creating the original wireframes.
 
 ## Testing
 
