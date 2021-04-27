@@ -264,7 +264,15 @@ I did this by using !important in my CSS code.
 
 While screen testing these pages I realised that the links underneath the text would not allign properly on the larger and medium size screens. 
 After discussing this issue in a mentoring session, I got the idea to create new rows and cols using the bootstrap grid and using media-queries to make sure they are always shown
-in a straight line related to each other.
+in a straight line related to each other. However this would mean that I had to duplicate my code. After discussing the issue in my final mentoring session I was told that it would be better
+to find a different solution for the problem. 
+
+Antonija told me to do some research on equal-height columns. Googling this led me to old articles that explained the principle of it [Article-here](https://matthewjamestaylor.com/equal-height-columns)
+After doing some more research on how to achieve this (the article was kind of old) I found that bootstrap creates these equal height columns automatically.
+So all I had to do was position the `link`-elements correctly to stay at the bottom of each parent element. To achieve this I had to move them out of the `article`-element they
+where in before. I added some `padding-bottom` to each parent col as well by reusing one of my earlier created classes, to push the icons down a litte from the text in the `article`-elements.
+
+The line of code can be found in `bouldering.html` on line: 139, 165, 190. And in my css-file by using the search function to find the class off `crag-link`.
 
 #### Subcribe in navbar and footer when on a different page from index.html
 
