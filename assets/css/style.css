@@ -31,7 +31,6 @@ img {
 
 .main-heading {
     margin: 0;
-    /* letter-spacing: 2px;  */
     animation-name: fadeInImageContent;
     animation-duration: 2.5s;
     animation-direction: normal;
@@ -49,7 +48,6 @@ img {
 
 
 .footer-heading {
-    /* text-align: center; */
     color: #fafafa;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -97,6 +95,10 @@ article {
     background-color: #fafafa;
 }
 
+.bg-color-orange {
+    background-color: #e4a923;
+}
+
 .bg-color-navbar {
     background-color: #e4a923;
 }
@@ -126,10 +128,6 @@ article {
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
-}
-
-.bg-color-orange {
-    background-color: #e4a923;
 }
 
 .btn:hover {
@@ -210,7 +208,8 @@ article {
     width: 10rem;
     height: 10rem;
     border-radius: 5px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: #fafafa;
 }
 
 .gear-logo:hover {
@@ -254,12 +253,6 @@ article {
 }
 /* =======Form======= */
 
-.orange-box {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-radius: 10px;
-}
-
 .white-box {
     background-color: #fafafa;
     padding-top: 25px;
@@ -269,8 +262,9 @@ article {
     align-content: center;
     align-items: stretch;
     border-radius: 10px;
-    box-shadow: rgba(0 0 0 / 61%) 30px 40px 50px -20px;
+    box-shadow: rgb(0 0 0 / 61%) 5px 23px 81px -28px;
 }
+
 /* =========Articles======== */
 
 article {
