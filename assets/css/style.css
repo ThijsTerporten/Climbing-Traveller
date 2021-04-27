@@ -139,7 +139,6 @@ article {
     color: #fafafa;
     text-transform: uppercase;
     font-weight: bold;
-    letter-spacing: 4px;
 }
 
 .footer-text {
@@ -203,8 +202,10 @@ article {
 }
 
 .crag-link {
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+    color: #333;
 }
 
 .gear-logo {
@@ -240,7 +241,7 @@ article {
 /* --------Containers-------- */
 
 .climbing-container {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 25px;
 }
 
@@ -279,13 +280,6 @@ article {
     border-radius: 5px;
 }
 
-article:hover {
-    box-shadow: rgba(0, 0, 0, 0.4) 20px -10px 30px -5px;
-}
-
-.crag-link-lg {
-    margin-top: 5px;
-}
 /* =========Footer======= */
 
 .footer-nav {
@@ -309,7 +303,6 @@ article:hover {
     justify-content: center;
 }
 
-
 a:hover {
     color: #e4a923;
 }
@@ -325,21 +318,7 @@ a:hover {
 
 /* ============Media Queries============ */
 
-@media screen and (min-width: 0) {
-  .crag-link-lg a img {
-      display: none;
-  }
-}
-
 @media screen and (min-width: 992px) {
-  .crag-link-lg a img {
-      display: initial;
-  }
-
-  article a img {
-        display: none;
-    }
-
   .orange-box {
       width: 65%;
   }
