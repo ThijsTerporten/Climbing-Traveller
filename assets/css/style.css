@@ -1,5 +1,12 @@
 /* --------General Styling-------- */
 
+:root {
+    --orange: #e4a923; 
+    --white: #fafafa;
+    --gunmetal: #3b5249;
+    --font-exo: "Exo" , sans-serif;
+}
+
 html,
 body,
 header,
@@ -10,8 +17,9 @@ header,
 body {
     margin: 0;
     font-family: "Roboto" , sans-serif;
-    background-color: #fafafa;
+    background-color: var(--white);
     font-size: 100%;
+    background-color: var(--white);
 }
 
 /* Set width and height for all images for faster loading times */
@@ -48,14 +56,14 @@ img {
 
 
 .footer-heading {
-    color: #fafafa;
+    color: var(--white);
     padding-top: 10px;
     padding-bottom: 10px;
 }
 /* --------Paragraphs-------- */
 
 .heading-text {
-    font-family: "Exo" , sans-serif;
+    font-family: var(--font-exo);
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -91,24 +99,20 @@ img {
 }
 /* --------Colors-------- */
 
-article {
-    background-color: #fafafa;
-}
-
 .bg-color-orange {
-    background-color: #e4a923;
+    background-color: var(--orange);
 }
 
 .bg-color-navbar {
-    background-color: #e4a923;
+    background-color: var(--orange);
 }
 
 .dropdown-menu {
-    background-color: #e4a923;
+    background-color: var(--orange);
 }
 
 .heading-white {
-    color: #fafafa;
+    color: var(--white);
 }
 
 .full-bg-image {
@@ -118,11 +122,11 @@ article {
 }
 
 .footer-container {
-    background-color: #3b5249;
+    background-color: var(--gunmetal);
 }
 
 .btn {
-    background-color: #e4a923;
+    background-color: var(--orange);
     font-family: "Exo" , sans-serif;
     color: black;
     text-transform: uppercase;
@@ -132,7 +136,7 @@ article {
 
 .btn:hover {
     background-color: rgba(0, 0, 0, 0.5) ;
-    color: #fafafa;
+    color: var(--white);
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -201,7 +205,7 @@ article {
     position: absolute;
     bottom: 0;
     left: 47%;
-    color: #333;
+    color: var(--gunmetal);
 }
 
 .gear-logo {
@@ -209,7 +213,7 @@ article {
     height: 10rem;
     border-radius: 5px;
     margin-bottom: 20px;
-    background-color: #fafafa;
+    background-color: var(--white);
 }
 
 .gear-logo:hover {
@@ -219,12 +223,12 @@ article {
 
 .heading-divider {
     width: 40%;
-    background-color: #fafafa;
+    background-color: var(--white);
     margin-bottom: 50px;
 }
 
 .heading-divider--black {
-    background-color: #333;   
+    background-color: var(--gunmetal);   
 }
 
 .animate-divider {
@@ -254,7 +258,6 @@ article {
 /* =======Form======= */
 
 .white-box {
-    background-color: #fafafa;
     padding-top: 25px;
     padding-bottom: 25px;
     width: 50vw;
@@ -268,7 +271,6 @@ article {
 /* =========Articles======== */
 
 article {
-    background-color: #fafafa;
     border-radius: 5px;
 }
 
@@ -285,15 +287,15 @@ article {
 }
 
 .footer-nav li a {
-    color: #fafafa;
+    color: var(--white);
 }
 
 .footer-nav li a:hover {
-    color: #e4a923;
+    color: var(--orange);
 }
 
 a:hover {
-    color: #e4a923;
+    color: var(--orange);
 }
 
 .link-item {
