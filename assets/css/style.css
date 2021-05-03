@@ -88,6 +88,12 @@ img {
     padding-bottom: 10px;
 }
 
+.article-text {
+    font-family: var(--font-exo);
+    text-align: justify;
+    font-style: italic;
+}
+
 .copyright-text {
     display: flex;
     justify-content: flex-start;
@@ -97,6 +103,7 @@ img {
 .footer-text {
     font-family: "Exo" , sans-serif;
 }
+
 /* --------Colors-------- */
 
 .bg-color-orange {
