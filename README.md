@@ -206,6 +206,9 @@ Once I had a general idea on how to run testing I followed all steps for each of
   While playing around with box-shadow property's I decided to surround the form with a small shadow to make it appear like it is a card. 
 * While checking for breakpoints I noticed that the text in the articles would crop up to much on screen sizes outside of the bootstrap grid.
 * While testing my links one of the navigation links wasn't working properly, which gave me the idea to include my own custom 404-page.
+* While using DevTools responsive option I noticed that on screen sizes ranging from 1000px to 1200px that the article text would be hard to read. 
+
+This was fixed easily by adding some more bootstrap classes to each respective `col`-class
 
 Running my code in lighthouse I was able to see the performance, accessibillity, best practices and SEO of the website.
 The overall score of each of the pages can be found here: 
