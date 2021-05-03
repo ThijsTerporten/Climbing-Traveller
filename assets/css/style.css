@@ -163,8 +163,16 @@ img {
 .active {
     text-decoration: underline;
     font-weight: 700;
-    font-size: 20px;
+    color: black;
 }
+
+.dropdown-item.active {
+    text-decoration: underline;
+    font-weight: 700;
+    background-color: var(--orange);
+    color: black;
+}
+
 
 /* --------Background Hero Image-------- */
 
