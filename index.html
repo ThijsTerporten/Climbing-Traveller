@@ -5,33 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
+    <meta name="Description" content="Home page with subscribe form" />
+    <!-- Google fonts link -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Font Family link -->
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Roboto&display=swap" rel="stylesheet">
+    <!-- Bootstrap Css link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Fontawesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <!-- Link to style.css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>The Climbing Traveller</title>
 </head>
 
 <body>
     <header>
-        <!-- Navbar -->
+        <!-- Navbar basic template from bootstrap, styled using custom css-->
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
                     <nav class="navbar navbar-expand-lg navbar-light bg-color-navbar fixed-top">
                         <!-- Logo -->
                         <a class="navbar-brand" href="index.html"><img src="assets/images/climbing-logo.jpg"
-                                class="logo" alt="climbing logo"><span class="d-none d-md-inline text-uppercase"> Climbing
-                                Traveller</span></a>
-                        <!-- Logo -->
+                                class="logo" alt="climbing logo"><span class="d-none d-md-inline text-uppercase">
+                                Climbing Traveller
+                            </span>
+                        </a>
+                        <!-- Bootstrap navbar Burger button -->
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarClimbing" aria-controls="navbarClimbing" aria-expanded="false"
                             aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarClimbing">
+                            <!-- Navigation links -->
                             <ul class="navbar-nav ml-auto text-uppercase">
                                 <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
                                     <a class="nav-link" href="index.html">Home <span
@@ -40,6 +48,7 @@
                                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                                     <a class="nav-link" href="#about">About</a>
                                 </li>
+                                <!-- Dropdown menu used for climbing styles pages -->
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -69,6 +78,7 @@
             <div class="full-bg-image container-fluid">
                 <div class="row">
                     <div class="col">
+                        <!-- Main heading of homepage -->
                         <h1 class="main-heading text-uppercase heading-white">The Climbing Traveller</h1>
                         <hr class="heading-divider animate-divider">
                         <p class="heading-text heading-white"><small>Your guide to your next climbing adventure.</small>
@@ -101,7 +111,6 @@
             </div>
         </div>
     </section>
-    <!-- About us section -->
     <!-- NewsLetter section -->
     <div class="container-fluid climbing-container" id="subscribe">
         <h2 class="text-uppercase heading">Subscribe to our Newsletter!</h2>
@@ -111,7 +120,8 @@
             Subscribe to our newsletter!
         </p>
         <div class="container-fluid d-flex justify-content-center">
-            <form class="white-box">
+            <!-- Subscribe form from bootstrap styled with own custom css classes -->
+            <form class="form-box">
                 <div class="row">
                     <div class="form-group col-md-8 offset-md-2 col-lg-6 offset-lg-3">
                         <label for="firstName">First Name:</label>
@@ -151,22 +161,43 @@
             </form>
         </div>
     </div>
-    <!-- NewsLetter section -->
     <footer class="container-fluid footer-container">
         <div class="row">
             <!-- 1 of 3 columns on large screens in footer -->
             <div class="col-lg-4">
                 <!-- Footer navigation to go to any page -->
                 <ul class="footer-nav">
-                    <li class="footer-nav-item"><a href="index.html">Home</a>
+                    <li class="footer-nav-item">
+                        <a href="index.html">
+                            Home
+                            <span class="sr-only">Current</span>
+                        </a>
                     </li>
-                    <li class="footer-nav-item"><a href="#about">About</a></li>
-                    <li class="footer-nav-item"><a href="index.html#subscribe">Subscribe!</a>
+                    <li class="footer-nav-item">
+                        <a href="#about">
+                            About
+                        </a>
                     </li>
-                    <li class="footer-nav-item"><a href="bouldering.html">Bouldering</a></li>
-                    <li class="footer-nav-item"><a href="lead-climbing.html">Lead-Climbing<span
-                                class="sr-only">Current</span></a></li>
-                    <li class="footer-nav-item"><a href="gear.html">Gear-up!</a></li>
+                    <li class="footer-nav-item">
+                        <a href="index.html#subscribe">
+                            Subscribe!
+                        </a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="bouldering.html">
+                            Bouldering
+                        </a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="lead-climbing.html">
+                            Lead-Climbing
+                        </a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="gear.html">
+                            Gear-up!
+                        </a>
+                    </li>
                 </ul>
             </div>
             <!-- 1 of 3 columns on large screens in footer -->
@@ -237,9 +268,9 @@
                         this website.</small>
                 </span>
             </div>
-            <!-- copyright policy -->
         </div>
     </footer>
+    <!-- Scripts for Bootstrap JavaScript functionality -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>

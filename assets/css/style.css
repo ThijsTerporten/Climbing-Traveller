@@ -1,5 +1,5 @@
 /* --------General Styling-------- */
-
+/* Variables used to specify general colors and Fonts */
 :root {
     --orange: #e4a923; 
     --white: #fafafa;
@@ -30,13 +30,14 @@ img {
 
 /* --------Headings-------- */
 
+/* Used to center content in hero images */
 .full-bg-image {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 }
-
+/* Styling for h1 with fade in animation */
 .main-heading {
     margin: 0;
     animation-name: fadeInImageContent;
@@ -45,16 +46,14 @@ img {
     animation-timing-function: linear;
     font-weight: 800;
 }
-
+/* General heading styling */
 .heading { 
     text-align: center;
     letter-spacing: 1px;
-    padding-top: 40px;
     padding-bottom: 20px;
     font-weight: 200;
 }
-
-
+/* Footer heading styling */
 .footer-heading {
     color: var(--white);
     padding-top: 10px;
@@ -62,6 +61,7 @@ img {
 }
 /* --------Paragraphs-------- */
 
+/* Hero img text styling with fade in animation */
 .heading-text {
     font-family: var(--font-exo);
     text-align: center;
@@ -72,7 +72,7 @@ img {
     animation-direction: normal;
     animation-timing-function: linear;
 }
-
+/* Classes used to easily style text in different sections off each page */
 .about-text {
     font-family: "Exo" , sans-serif;
     text-align: center;
@@ -106,32 +106,33 @@ img {
 
 /* --------Colors-------- */
 
+/* background color for gear logo section in gear page */
 .bg-color-orange {
     background-color: var(--orange);
 }
-
+/* Background color for navbar */
 .bg-color-navbar {
     background-color: var(--orange);
 }
-
+/* Background color for dropdown menu */
 .dropdown-menu {
     background-color: var(--orange);
 }
-
+/* Color for text in hero images */
 .heading-white {
     color: var(--white);
 }
-
+/* Filter on hero images */
 .full-bg-image {
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
 }
-
+/* Background color for footer */
 .footer-container {
     background-color: var(--gunmetal);
 }
-
+/* Styling for button in subscribe form */
 .btn {
     background-color: var(--orange);
     font-family: "Exo" , sans-serif;
@@ -140,24 +141,26 @@ img {
     font-weight: bold;
     letter-spacing: 2px;
 }
-
+/* Hover effect for button in form */
 .btn:hover {
     background-color: rgba(0, 0, 0, 0.5) ;
     color: var(--white);
     text-transform: uppercase;
     font-weight: bold;
 }
-
+/* Color for footer text to show contrast with darker background */
 .footer-text {
     color: #fafafa;
 }
 
 /* --------Navbar-------- */
 
+/* Box shadow for navbar to appear as if it hovers on each different section of the pages */
 .navbar {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 20px -12px;
 }
 
+/* Used to overwrite bootstrap css for hover in the navbar without use of important */
 .navbar-light
 .navbar-nav 
 .nav-link:focus, 
@@ -167,11 +170,13 @@ img {
     color: var(--white);
 }
 
+/* Hover effect for dropdown menu in navbar */
 .dropdown-item:hover {
     background-color: var(--orange);
     color: var(--white);
 }
 
+/* Styling for active page in navbar */
 .active {
     text-decoration: underline;
     font-weight: 700;
@@ -189,9 +194,9 @@ img {
     color: var(--white);
 }
 
-
 /* --------Background Hero Image-------- */
 
+/* Main hero Images with browser compatibillity */
 .hero-image {
     background-repeat: no-repeat;
     background-position: center;
@@ -212,6 +217,7 @@ img {
     background-image: url("../images/bouldering.jpg");
 }
 
+/* Positioned slightly different for better view on gear in the image */
 .hero-image-gear {
     background-image: url("../images/gear-up.jpg");
     background-position: top center;
@@ -225,13 +231,15 @@ img {
     box-shadow: 7px 3px 8px -3px;     
 }
 
+/* Positioning for 27crags links underneath articles */
 .crag-link {
     position: absolute;
     bottom: 0;
-    left: 47%;
+    left: 46%;
     color: var(--gunmetal);
 }
 
+/* Styling used for gear logos with hover effect */
 .gear-logo {
     width: 10rem;
     height: 10rem;
@@ -245,31 +253,33 @@ img {
 }
 /* --------Dividers-------- */
 
+/* General heading divider */
 .heading-divider {
     width: 40%;
     background-color: var(--white);
     margin-bottom: 50px;
 }
-
+/* Heading divider for white background */
 .heading-divider--black {
     background-color: var(--gunmetal);   
 }
-
+/* Animation for heading divider in hero images */
 .animate-divider {
     animation-name: fadeInImageContent;
     animation-duration: 3.5s;
     animation-direction: normal;
     animation-timing-function: linear;
-
 }
 
 /* --------Containers-------- */
 
+/* Padding used to provide spacing between sections */
 .climbing-container {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
+/* Padding used to push contents of footer away from last section */
 .footer-container {
     padding-top: 10px;
     margin-top: 0;
@@ -281,7 +291,7 @@ img {
 }
 /* =======Form======= */
 
-.white-box {
+.form-box {
     padding-top: 25px;
     padding-bottom: 25px;
     width: 50vw;
@@ -290,12 +300,6 @@ img {
     align-items: stretch;
     border-radius: 10px;
     box-shadow: rgb(0 0 0 / 61%) 5px 23px 81px -28px;
-}
-
-/* =========Articles======== */
-
-article {
-    border-radius: 5px;
 }
 
 /* =========Footer======= */
@@ -318,6 +322,7 @@ article {
     color: var(--orange);
 }
 
+footer,
 a:hover {
     color: var(--orange);
 }
@@ -333,13 +338,7 @@ a:hover {
 
 /* ============Media Queries============ */
 
-@media screen and (min-width: 992px) {
-  .orange-box {
-      width: 65%;
-  }
-}
-
-/* Font sizes set specifically for smaller screens */
+/* Font sizes set specifically for smaller screens to prevent overflow on pages*/
 @media screen and (max-width:414px) {
     h1 {
         font-size: 5vh;
@@ -351,15 +350,18 @@ a:hover {
 }
 
 @media screen and (max-width:990px) {
-    .white-box {
-        width: 75vw;
+    /* Used to style form on smaller and medium screens */
+    .form-box {
+        width: 90vw;
         padding-left: 20px;
         padding-right: 20px;
     }
+    /* Padding used to provide some space for 27crags icons underneath articles */
     article {
         margin-bottom: 20px;
         padding-bottom: 25px;
     }
+    /* Used to push footer to the left on smaller screens */
     .footer-nav {
     list-style-type: none;
     font-family: "Exo" , sans-serif;

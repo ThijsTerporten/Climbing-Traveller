@@ -5,41 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
+    <meta name="Description" content="Bouldering locations" />
+    <!-- Google fonts link -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Font Family link -->
     <link href="https://fonts.googleapis.com/css2?family=Exo:wght@300&family=Roboto&display=swap" rel="stylesheet">
+    <!-- Bootstrap css link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font awesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+    <!-- Link to style.css -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>The Climbing Traveller | Bouldering</title>
 </head>
 
 <body>
     <header>
-        <!-- Navbar -->
+        <!-- Navbar basic template from bootstrap, styled using custom css-->
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
                     <nav class="navbar navbar-expand-lg navbar-light bg-color-navbar fixed-top">
                         <!-- Logo -->
                         <a class="navbar-brand" href="index.html"><img src="assets/images/climbing-logo.jpg"
-                                class="logo" alt="climbing logo"><span class="d-none d-md-inline text-uppercase"> Climbing
+                                class="logo" alt="climbing logo"><span class="d-none d-md-inline text-uppercase">
+                                Climbing
                                 Traveller</span></a>
-                        <!-- Logo -->
+                        <!-- Bootstrap navbar Burger button -->
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarClimbing" aria-controls="navbarClimbing" aria-expanded="false"
                             aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarClimbing">
+                            <!-- Navigation links -->
                             <ul class="navbar-nav ml-auto text-uppercase">
                                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                                    <a class="nav-link" href="index.html">Home <span
-                                            class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                                     <a class="nav-link" href="#about">About</a>
                                 </li>
+                                <!-- Dropdown menu used for climbing styles pages -->
                                 <li class="nav-item dropdown active" data-toggle="collapse"
                                     data-target=".navbar-collapse.show">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -47,7 +54,9 @@
                                         Climbing Style
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item active" href="bouldering.html">Bouldering</a>
+                                        <a class="dropdown-item active" href="bouldering.html">Bouldering
+                                            <span class="sr-only">(current)</span>
+                                        </a>
                                         <a class="dropdown-item" href="lead-climbing.html">Lead-Climbing</a>
                                     </div>
                                 </li>
@@ -64,7 +73,6 @@
                 </div>
             </div>
         </div>
-        <!-- Navbar -->
         <!-- Background-Hero-Image -->
         <div class="hero-image-bouldering hero-image">
             <div class="full-bg-image container-fluid">
@@ -109,8 +117,8 @@
     <section class="container-fluid climbing-container">
         <div class="row">
             <div class="col">
-                <h2 class="text-uppercase heading">Locations</h2>
-                <hr class="heading-divider">
+                <h2 class="text-uppercase heading">Locations:</h2>
+                <hr class="heading-divider heading-divider--black">
             </div>
         </div>
         <div class="row">
@@ -135,10 +143,11 @@
                         Make sure you bring a couple of crash pads and enough chalk to last your entire trip!
                     </p>
                 </article>
+                <!-- Link to 27crags -->
                 <a href="https://27crags.com/areas/fontainebleau" class="crag-link" target="_blank"
-                        rel="noopener noreferrer">
-                        <img src="assets/images/27-crags.png" alt="27-crags logo" class="logo">
-                    </a>
+                    rel="noopener noreferrer">
+                    <img src="assets/images/27-crags.png" alt="27-crags logo" class="logo">
+                </a>
             </div>
             <div class="col-xl-4 col-lg-6 col-sm-12 climbing-container">
                 <article>
@@ -159,10 +168,11 @@
                         you should be able to navigate around the block pretty nicely.
                     </p>
                 </article>
-                 <a href="https://27crags.com/crags/magic-wood" class="crag-link" target="_blank"
-                        rel="noopener noreferrer">
-                        <img src="assets/images/27-crags.png" alt="27-crags logo" class="logo">
-                    </a>
+                <!-- Link to 27crags -->
+                <a href="https://27crags.com/crags/magic-wood" class="crag-link" target="_blank"
+                    rel="noopener noreferrer">
+                    <img src="assets/images/27-crags.png" alt="27-crags logo" class="logo">
+                </a>
             </div>
             <div class="col-xl-4 col-lg-6 col-sm-12 climbing-container">
                 <article>
@@ -184,6 +194,7 @@
                         us!
                     </p>
                 </article>
+                <!-- Link to 27crags -->
                 <a href="https://27crags.com/crags/ruhrtal" class="crag-link" target="_blank" rel="noopener noreferrer">
                     <img src="assets/images/27-crags.png" alt="27-crags logo" class="logo">
                 </a>
@@ -196,15 +207,37 @@
             <div class="col-lg-4">
                 <!-- Footer navigation to go to any page -->
                 <ul class="footer-nav">
-                    <li class="footer-nav-item"><a href="index.html">Home</a>
+                    <li class="footer-nav-item">
+                        <a href="index.html">
+                            Home
+                        </a>
                     </li>
-                    <li class="footer-nav-item"><a href="#about">About</a></li>
-                    <li class="footer-nav-item"><a href="index.html#subscribe">Subscribe!</a>
+                    <li class="footer-nav-item">
+                        <a href="#about">
+                            About
+                        </a>
                     </li>
-                    <li class="footer-nav-item"><a href="bouldering.html">Bouldering</a></li>
-                    <li class="footer-nav-item"><a href="lead-climbing.html">Lead-Climbing<span
-                                class="sr-only">Current</span></a></li>
-                    <li class="footer-nav-item"><a href="gear.html">Gear-up!</a></li>
+                    <li class="footer-nav-item">
+                        <a href="index.html#subscribe">
+                            Subscribe!
+                        </a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="bouldering.html">
+                            Bouldering
+                            <span class="sr-only">Current</span>
+                        </a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="lead-climbing.html">
+                            Lead-Climbing
+                        </a>
+                    </li>
+                    <li class="footer-nav-item">
+                        <a href="gear.html">
+                            Gear-up!
+                        </a>
+                    </li>
                 </ul>
             </div>
             <!-- 1 of 3 columns on large screens in footer -->
@@ -275,6 +308,7 @@
             <!-- copyright policy -->
         </div>
     </footer>
+    <!-- Scripts for Bootstrap JavaScript functionality -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
