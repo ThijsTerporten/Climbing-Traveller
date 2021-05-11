@@ -234,10 +234,10 @@ Running my code through the CSS-validator on W3C-schools (Jigsaw) no errors wher
 * Jigsaw-result: No mistakes made in css code. 
 
 An overview of the performance off each page of the website can be found here: 
-* [index.html-mobile](assets/images/lighthouse/index-mobile.png)[index.html-desktop](assets/images/lighthouse/index-desktop.png)
-* [lead-climbing.html-mobile](assets/images/lighthouse/lead-mobile.png)[lead-climbing.html-desktop](assets/images/lighthouse/lead-desktop.png)
-* [bouldering.html-mobile](assets/images/lighthouse/bouldering-mobile.png)[bouldering.html-desktop](assets/images/lighthouse/bouldering-desktop.png)
-* [gear.html-mobile](assets/images/lighthouse/gear-mobile.png)[gear.html-desktop](assets/images/lighthouse/gear-desktop.png)
+* [index.html-mobile](assets/images/lighthouse/index-mobile.png) | [index.html-desktop](assets/images/lighthouse/index-desktop.png)
+* [lead-climbing.html-mobile](assets/images/lighthouse/lead-mobile.png) | [lead-climbing.html-desktop](assets/images/lighthouse/lead-desktop.png)
+* [bouldering.html-mobile](assets/images/lighthouse/bouldering-mobile.png) | [bouldering.html-desktop](assets/images/lighthouse/bouldering-desktop.png)
+* [gear.html-mobile](assets/images/lighthouse/gear-mobile.png) | [gear.html-desktop](assets/images/lighthouse/gear-desktop.png)
 
 ### Bugs
 
