@@ -121,13 +121,14 @@ This section contains some of the features this project contains:
 * The user is able to move to a more detailed description about a location they are interested in by clicking on the link to 27 Crags at the end of the description.
 * The website has its own custom 404-page (currently on the deployed page only).
 * All links have a hover effect on them. 
-* Text of the heading on each page slowly fades in, followed by the smaller text.
+* Text of the heading on each page slowly fades in, followed by the divider and smaller text.
 
 ### Future Features
 
 * In a future release the subscribe form will be linked to a mailing server.
 * In a future release there will be a news page that will give updates about everything in the climbing world.
 * In future updates there will be new sections added to each category of climbing. 
+* In a future update the descriptions of each location will be in blog style from personal experience instead of using text by research.
 
 ## Technologies
 
@@ -135,15 +136,15 @@ This project was build using the following technologies:
 
 * HTML5
 * CSS3
-* Bootstrap: for their grid and use of their CSS and JavaScript library.
+* Bootstrap v4.5.2: for their grid and use of their CSS and JavaScript library. [Bootstrap](https://getbootstrap.com/)
 * Google Chrome Dev Tools: for testing purposes.
 * Lighthouse: Used for testing website performance, check for best practices, SEO and accessibillity.
-* Jquery: to simplify DOM manipulation.
-* Popper: to ensure all JavaScript libraries from bootstrap work as intended.
+* Jquery: to simplify DOM manipulation. [Jquery](https://jquery.com/)
+* Popper: to ensure all JavaScript libraries from bootstrap work as intended. [Popper](https://popper.js.org)
 * Prettier: to beautify code. 
-* W3C HTML-validator: Used to find mistakes in my html code.
-* Jigsaw: Used to find mistakes in my CSS code.
-* FontAwesome: used for icons in the footer. 
+* W3C HTML-validator: Used to find mistakes in my html code. [HTML-validator](https://validator.w3.org/nu/#textarea)
+* Jigsaw: Used to find mistakes in my CSS code. [Jigsaw](https://jigsaw.w3.org/css-validator/#validate_by_input)
+* FontAwesome: used for icons in the footer. [FontAwesome](https://fontawesome.com/)
 * Balsamiq: for creating the original wireframes.
 
 ## Testing
@@ -162,11 +163,11 @@ I am aiming to be in the middle of these two.
 
 As this is the first website that I created on my own I had no experience debugging on my own. Testing was mainly done using DevTools in google chrome. 
 Starting mobile first then working my way up to bigger screen sizes. 
-Whenever an element wasn't located where I wanted it to be I would use the element.style box in DevTools to find a solution. 
-The element.style box was also used to pick color's for the navbar, the button underneath the subscribe form, the color of the footer and the opicity on top of the images.
+Whenever an element wasn't located where I wanted it to be I would use the `element.style` box in DevTools to find a solution. 
+The `element.style` box was also used to pick color's for the navbar, the button underneath the subscribe form, the color of the footer and the opicity on top of the images.
 
-I used Lighthouse in the DevTools as well to check the performance of my website and find errors in my code, for example I didn't have any rel="noopener noreffer" tags in 
-my links that have target="_blank". Lighthouse made it clear to me why these tags are important to include. 
+I used Lighthouse in the DevTools as well to check the performance of my website and find errors in my code, for example I didn't have any `rel="noopener noreffer"` tags in 
+my links that have `target="_blank"`. Lighthouse made it clear to me why these tags are important to include. 
 
 I used the WC3 code validators to check my code for mistakes as well. 
 
@@ -222,8 +223,15 @@ section that contains the articles in `bouldering.html` and `lead-climbing.html`
 
 Running my code through the CSS-validator on W3C-schools (Jigsaw) no errors where found.
 
-* HTML-validator results:
-* Jigsaw-result:
+* HTML-validator results: No mistakes in code.
+* Jigsaw-result: No mistakes made in css code. 
+
+An overview of the performance off each page of the website can be found here: 
+* [index.html]
+* [404.html]
+* [lead-climbing.html]
+* [bouldering.html]
+* [gear.html]
 
 
 ### Bugs
