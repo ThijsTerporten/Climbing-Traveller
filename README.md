@@ -218,6 +218,8 @@ Using lighthouse I was able to optimise the performance of the website given my 
 I was made aware that when using target="_blank" links I should include rel="noopener noreffer" as well to prevent the JavaScript function window.opener from stealing data
 from my website by running the exact same process. Whereas noreffer ensures the target website can't see where the referral is coming from.
 
+Furthermore lighthouse made me notice that I didn't reserve any space for my `img` elements which could affect website performance in a negative way.
+
 While running my code through the HTML-validator on W3C-schools I was made aware that I used `<blockquote>` in an incorrect way and that there was no heading to define the 
 section that contains the articles in `bouldering.html` and `lead-climbing.html`.
 
@@ -227,12 +229,10 @@ Running my code through the CSS-validator on W3C-schools (Jigsaw) no errors wher
 * Jigsaw-result: No mistakes made in css code. 
 
 An overview of the performance off each page of the website can be found here: 
-* [index.html]
-* [404.html]
-* [lead-climbing.html]
-* [bouldering.html]
-* [gear.html]
-
+* [index.html-mobile](assets/images/lighthouse/index-mobile.png)[index.html-desktop](assets/images/lighthouse/index-desktop.png)
+* [lead-climbing.html-mobile](assets/images/lighthouse/lead-mobile.png)[lead-climbing.html-desktop](assets/images/lighthouse/lead-desktop.png)
+* [bouldering.html-mobile](assets/images/lighthouse/bouldering-mobile.png)[bouldering.html-desktop](assets/images/lighthouse/bouldering-desktop.png)
+* [gear.html-mobile](assets/images/lighthouse/gear-mobile.png)[gear.html-desktop](assets/images/lighthouse/gear-desktop.png)
 
 ### Bugs
 
