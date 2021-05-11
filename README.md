@@ -67,16 +67,21 @@ The end goal of the project is to get people excited about climbing and inform t
 As a user the site has to be accessible on mobile, tablet and all browsers. Information should be clearly laid out, informative and easy to read.
 The site navigation needs to be optimal to move to the preferred section of the user.
 
+Furthermore information needs to be layed out in such a manner that if a user is interested in one of the listed locations, they are able to get a full description off
+the area if they want it.
+
 ### Business vision
 
-The purpose of this project is to give users new idea's and a clear overview of the area of their next climbing trip.
+The purpose of this project is to give users new idea's and a overview of the area of their next climbing trip. If the user is interested in one of the area's listed
+they can get a full description off the area by using the link to 27-crags. Writing all this information would make the page more cluttered with too much information about
+each area which will cause users to lose interest.
 The site also gives the users easy acces to external sites to buy new gear or an option to subscribe to a newsletter to 
 give them updates about cool new climbing locations.
 
 ## Scope
 
 I want my users to easily learn about outdoor climbing and some cool locations to check out. While having the option to find gear needed to start 
-climbing outside available on a different page of the website.
+climbing outside available on a different page of the website. 
 
 ## Structure
 
