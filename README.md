@@ -8,7 +8,7 @@ about new locations to consider for their next trip.
 ## Showcase
 ![Showcase-screenshot](assets/images/wireframes/milestone.png)
 
-A deployed version of my website can be found [here.](https://thijsterporten.github.io/Milestone-1/index.html)
+A deployed version of my website can be found [here.](https://thijsterporten.github.io/Climbing-Traveller/)
 
 ## navigation
 
