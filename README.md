@@ -238,6 +238,7 @@ Running my code through the CSS-validator on W3C-schools (Jigsaw) no errors wher
 [bouldering.html](assets/images/html-results/bouldering-results.png) | [lead-climbing.html](assets/images/html-results/lead-results.png)
 
 * Jigsaw-result: [results](assets/images/html-results/css-results.png). 
+All warnings given where related to the use off browser compatibillity lines of code for animations and background image sizing.
 
 An overview of the performance off each page of the website can be found here: 
 * [index.html-mobile](assets/images/lighthouse/index-mobile.png) | [index.html-desktop](assets/images/lighthouse/index-desktop.png)
