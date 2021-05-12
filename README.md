@@ -362,6 +362,7 @@ description for this page is done by doing research on the area itself and by wa
 I would like to acknowledge my mentor Antonija Simic who is simply awesome. She made sure I kept focused on the important things, 
 send me usefull information during our mentoring sessions about things she saw I was struggling with. 
 She made sure I used best practices from the get go. For example not using ID's when writing my CSS-code (ID's are extremely hard to overwrite in CSS).
+I would also like to give credits to the slack community with providing me additional feedback on my project.
 
 **This project was created for educational purposes only, credit for all images goes to their owners**
 
