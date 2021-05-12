@@ -47,7 +47,8 @@ The end user of this project would like to find clear descriptions of the locati
 * Accomodations. 
 * Other things to do in the area.
 
-The end goal of the project is to get people excited about climbing and inform them about outdoor climbing-locations.
+The end goal of the project is to get people excited about climbing and inform them about outdoor climbing-locations. Providing them with a short description
+off the area and if wanted links to find out more about the area.
 
 ### UX stories
 
@@ -134,13 +135,17 @@ This section contains some of the features this project contains:
 * In a future release there will be a news page that will give updates about everything in the climbing world.
 * In future updates there will be new sections added to each category of climbing. 
 * In a future update the descriptions of each location will be in blog style from personal experience instead of using text by research.
+* In a future update the footer will be styled in a more interactive way. Using a pop up modal to subscribe for a newsletter.
 
 ## Technologies
 
 This project was build using the following technologies:
 
+### Languages
 * HTML5
 * CSS3
+
+### Libraries and online resources:
 * Bootstrap v4.5.2: for their grid and use of their CSS and JavaScript library. [Bootstrap](https://getbootstrap.com/)
 * Google Chrome Dev Tools: for testing purposes.
 * Lighthouse: Used for testing website performance, check for best practices, SEO and accessibillity.
@@ -151,6 +156,7 @@ This project was build using the following technologies:
 * Jigsaw: Used to find mistakes in my CSS code. [Jigsaw](https://jigsaw.w3.org/css-validator/#validate_by_input)
 * FontAwesome: used for icons in the footer. [FontAwesome](https://fontawesome.com/)
 * Balsamiq: for creating the original wireframes.
+* Coolors: to chose a color scheme. [Coolors](https://coolors.co)
 
 ## Testing
 
@@ -216,12 +222,10 @@ Once I had a general idea on how to run testing I followed all steps for each of
 
 This was fixed easily by adding some more bootstrap classes to each respective `col`-class
 
-Running my code in lighthouse I was able to see the performance, accessibillity, best practices and SEO of the website.
-The overall score of each of the pages can be found here: 
 
-Using lighthouse I was able to optimise the performance of the website given my current knowledge. (Some performance enhancements require JavaScript: Creating responsive images)
-I was made aware that when using target="_blank" links I should include rel="noopener noreffer" as well to prevent the JavaScript function window.opener from stealing data
-from my website by running the exact same process. Whereas noreffer ensures the target website can't see where the referral is coming from.
+Using lighthouse I was able to optimise the performance of the website given my current knowledge. (Some performance enhancements require JavaScript: lazy loading of images on the gear page.)
+I was made aware that when using `target="_blank"` links I should include `rel="noopener noreffer"` as well to prevent the JavaScript function `window.opener` from stealing data
+from my website by running the exact same process. Whereas `noreffer` ensures the target website can't see where the referral is coming from.
 
 Furthermore lighthouse made me notice that I didn't reserve any space for my `img` elements which could affect website performance in a negative way.
 
@@ -270,7 +274,7 @@ After doing testing I found out that this affected the targets of my links using
 #### Dropdown burger menu not collapsing when clicking on a link
 
 During testing I noticed that the burger menu wouldn't collapse when using the links thus covering the content it is navigating to. This was fixed by going
-through bootstrap documentation and using google. The terms 'data-target' and 'data-toggle' came up. Adding the data-target:"navbar.collapse.show" to al nav-items fixed
+through bootstrap documentation and using google. The terms `'data-target'` and `'data-toggle'` came up. Adding the `data-target:"navbar.collapse.show"` to al nav-items fixed
 the issue.
 
 #### Colors of nav-items in navbar and dropdown-menu
@@ -278,7 +282,8 @@ the issue.
 While testing I noticed that it was a bad UX to have the nav-items remain in the same color while hovering on them with the mouse.
 Using dev-tools I was able to find out what classes to target in CSS this however didn't fix my problem immediatly, after doing some googling I found out that 
 bootstrap classes had to be overwritten. 
-I did this by using !important in my CSS code.
+I did this by using !important in my CSS code at first. 
+Afterwards my mentor advised me to do this without using `!important`. Using devtools I was able to find the code I had to overwrite and fixed this.
 
 #### 27-crags link icons in bouldering and lead.html
 
