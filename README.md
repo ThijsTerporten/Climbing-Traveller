@@ -234,8 +234,10 @@ section that contains the articles in `bouldering.html` and `lead-climbing.html`
 
 Running my code through the CSS-validator on W3C-schools (Jigsaw) no errors where found.
 
-* HTML-validator results: No mistakes in code.
-* Jigsaw-result: No mistakes made in css code. 
+* HTML-validator results: [index.html](assets/images/html-results/index-results) | [gear.html](assets/images/html-results/gear-results) | 
+[bouldering.html](assets/images/html-results/bouldering-results) | [lead-climbing.html](assets/images/html-results/lead-results)
+
+* Jigsaw-result: [results](http://jigsaw.w3.org/css-validator/validator$link). 
 
 An overview of the performance off each page of the website can be found here: 
 * [index.html-mobile](assets/images/lighthouse/index-mobile.png) | [index.html-desktop](assets/images/lighthouse/index-desktop.png)
