@@ -338,7 +338,7 @@ If you would like to run this project locally you would have to follow these ste
 * Fontawesome for use from their icons. [Fontawesome](https://fontawesome.com/).
 * 27-crags for use of their logo. [27-crags](https://27crags.com/).
 * The logo's used in the gear.html page all belong to their respective brands, and where only used for educational purposes.
-* Bootstrap for use of their grid system, documentation and libraries. [bootstrap](https://getbootstrap.com/).
+* Bootstrap for use of their grid system, documentation, libraries and basic boilerplate html for the navbar and the subscribe form. [bootstrap](https://getbootstrap.com/).
 * Getcssscan to give me some inspiration on using the box-shadow property [Getcssscan](https://getcssscan.com/css-box-shadow-examples).
 * README template from code institute [README.md template](https://github.com/Code-Institute-Solutions/readme-template).
 
