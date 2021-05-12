@@ -108,6 +108,9 @@ This gave me the option to add more brands to the gear section, and would make i
 since I already have them split up. The negative side to this decision is that it makes the site feel kind of minimal in its current iteration, but that can be fixed in 
 future updates. 
 
+The design off the footer was played around with a lot. I decided to keep everything inlined for each respective part of it. This would result in more blank space for the 
+time being but would in my opinion keep a more clean look on the page. 
+
 
 ## Features
 
@@ -135,7 +138,7 @@ This section contains some of the features this project contains:
 * In a future release there will be a news page that will give updates about everything in the climbing world.
 * In future updates there will be new sections added to each category of climbing. 
 * In a future update the descriptions of each location will be in blog style from personal experience instead of using text by research.
-* In a future update the footer will be styled in a more interactive way. Using a pop up modal to subscribe for a newsletter.
+* In a future update the footer will be styled in a more interactive way and filling more off the blank space in between.
 
 ## Technologies
 
